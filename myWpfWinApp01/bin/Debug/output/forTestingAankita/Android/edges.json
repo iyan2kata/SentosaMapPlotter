@@ -1,0 +1,15 @@
+[{"edgeId":1,"fromNode":920,"toNode":921,"type":"CABLEWAY","biDirectional":true,"time":12.224076112266062,"mapOverlays":[[1.257212,103.811241],[1.25382626222,103.81478132143019]],"lineColor":"NAVYBLUE"},
+
+{"edgeId":2,"fromNode":921,"toNode":922,"type":"CABLEWAY","biDirectional":true,"time":4.6594689909564178,"mapOverlays":[[1.25382626222,103.81478132143019],[1.254973,103.816255]],"lineColor":"NAVYBLUE"},
+
+{"edgeId":3,"time":0,"fromNode":920,"toNode":917,"type":"WAIT","biDirectional":false,"lineColor":"NAVYBLUE"},
+
+{"edgeId":4,"time":600,"fromNode":917,"toNode":920,"type":"WAIT","biDirectional":false,"lineColor":"NAVYBLUE"},
+
+{"edgeId":5,"time":0,"fromNode":921,"toNode":918,"type":"WAIT","biDirectional":false,"lineColor":"NAVYBLUE"},
+
+{"edgeId":6,"time":600,"fromNode":918,"toNode":921,"type":"WAIT","biDirectional":false,"lineColor":"NAVYBLUE"},
+
+{"edgeId":7,"time":0,"fromNode":922,"toNode":919,"type":"WAIT","biDirectional":false,"lineColor":"NAVYBLUE"},
+
+{"edgeId":8,"time":600,"fromNode":919,"toNode":922,"type":"WAIT","biDirectional":false,"lineColor":"NAVYBLUE"}]

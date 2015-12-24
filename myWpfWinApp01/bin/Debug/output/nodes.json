@@ -1,0 +1,1803 @@
+[{"lat":1.2593057057845722,"lon":103.80841585664746,"type":"WALK","title":"Siloso Road","nodeId":1},
+
+{"lat":1.2595470462798828,"lon":103.80886646776196,"type":"WALK","title":"Siloso Road","nodeId":2},
+
+{"lat":1.2595792250109108,"lon":103.80940290956494,"type":"WALK","title":"Siloso Road","nodeId":3},
+
+{"lat":1.2590750915126285,"lon":103.81056162385937,"type":"WALK","title":"Siloso Road","nodeId":4},
+
+{"lat":1.2585173266775185,"lon":103.81089421777722,"type":"WALK","title":"Siloso Road","nodeId":5},
+
+{"lat":1.2581419079713421,"lon":103.80975159673687,"type":"WALK","title":"Default Node","nodeId":6},
+
+{"lat":1.2574500647855873,"lon":103.81111952333447,"type":"WALK","title":"Siloso Road","nodeId":7},
+
+{"lat":1.257391070396934,"lon":103.81128582029339,"type":"WALK","title":"Siloso Road","nodeId":8},
+
+{"lat":1.2577879417131721,"lon":103.81218167810437,"type":"WALK","title":"Siloso Road","nodeId":9},
+
+{"lat":1.2583564329529156,"lon":103.81308290033337,"type":"WALK","title":"Siloso Road","nodeId":10},
+
+{"lat":1.2586192260312916,"lon":103.81402167348858,"type":"WALK","title":"Siloso Road","nodeId":11},
+
+{"lat":1.2585387791733858,"lon":103.81415578393933,"type":"WALK","title":"Siloso Road","nodeId":12},
+
+{"lat":1.258023919223958,"lon":103.81438645391461,"type":"WALK","title":"Siloso Road","nodeId":13},
+
+{"lat":1.2579381092224993,"lon":103.81475123434063,"type":"WALK","title":"Siloso Road","nodeId":14},
+
+{"lat":1.2580721873485206,"lon":103.81531449823376,"type":"WALK","title":"Siloso Road","nodeId":15},
+
+{"lat":1.2579273829721229,"lon":103.81552907495495,"type":"WALK","title":"Siloso Road","nodeId":16},
+
+{"lat":1.2569191152396038,"lon":103.81600114374157,"type":"WALK","title":"Siloso Road","nodeId":17},
+
+{"lat":1.2558840314709348,"lon":103.81602796583172,"type":"WALK","title":"Siloso Road","nodeId":18},
+
+{"lat":1.2551667128156288,"lon":103.81858679323193,"type":"WALK","title":"Sentosa Cineblast","nodeId":19},
+
+{"lat":1.2549200087840178,"lon":103.8190320399284,"type":"WALK","title":"Sentosa Cineblast","nodeId":20},
+
+{"lat":1.2540029131581605,"lon":103.82003518609997,"type":"WALK","title":"Sentosa Cineblast","nodeId":21},
+
+{"lat":1.2575747574663596,"lon":103.8123318818092,"type":"WALK","title":"Imbiah Walk","nodeId":22},
+
+{"lat":1.2572905117768274,"lon":103.81231042413708,"type":"WALK","title":"Imbiah Walk","nodeId":23},
+
+{"lat":1.2562929700555068,"lon":103.813195553112,"type":"WALK","title":"Imbiah Walk","nodeId":24},
+
+{"lat":1.2561106236781716,"lon":103.81358179121014,"type":"WALK","title":"Imbiah Walk","nodeId":25},
+
+{"lat":1.2555474950795931,"lon":103.81400558023449,"type":"WALK","title":"Imbiah Walk","nodeId":26},
+
+{"lat":1.2554134168239581,"lon":103.8142952588081,"type":"WALK","title":"Imbiah Walk","nodeId":27},
+
+{"lat":1.2553651486502495,"lon":103.81620499162671,"type":"WALK","title":"Siloso Road","nodeId":28},
+
+{"lat":1.2551988916006369,"lon":103.81663950948712,"type":"WALK","title":"Siloso Road","nodeId":29},
+
+{"lat":1.255214980993014,"lon":103.81699892549511,"type":"WALK","title":"Siloso Road","nodeId":30},
+
+{"lat":1.2546143102777894,"lon":103.81717058687207,"type":"WALK","title":"Siloso Road","nodeId":31},
+
+{"lat":1.2544105112537902,"lon":103.81714376478192,"type":"WALK","title":"Luge Dragon","nodeId":32},
+
+{"lat":1.2546357628057165,"lon":103.81702038316723,"type":"WALK","title":"Luge Dragon","nodeId":33},
+
+{"lat":1.2546357628057165,"lon":103.81655904321667,"type":"WALK","title":"Luge Dragon","nodeId":34},
+
+{"lat":1.2547591148480097,"lon":103.81688627271649,"type":"WALK","title":"Luge Dragon","nodeId":35},
+
+{"lat":1.2542388910107412,"lon":103.81656977205273,"type":"WALK","title":"Luge Dragon","nodeId":36},
+
+{"lat":1.2541262652201222,"lon":103.81629082231518,"type":"WALK","title":"Luge Dragon","nodeId":37},
+
+{"lat":1.2539063767578063,"lon":103.81616207628247,"type":"WALK","title":"Luge Dragon","nodeId":38},
+
+{"lat":1.2533700633576195,"lon":103.81579193143841,"type":"WALK","title":"Luge Dragon","nodeId":39},
+
+{"lat":1.253756209009645,"lon":103.81592872407919,"type":"WALK","title":"Luge Dragon","nodeId":40},
+
+{"lat":1.2530509568205241,"lon":103.81592335970299,"type":"WALK","title":"Luge Dragon","nodeId":41},
+
+{"lat":1.2524422409159723,"lon":103.81659659414288,"type":"WALK","title":"Luge Dragon","nodeId":42},
+
+{"lat":1.252088273886327,"lon":103.81674143342968,"type":"WALK","title":"Luge Dragon","nodeId":43},
+
+{"lat":1.2548502880752193,"lon":103.81736907033917,"type":"WALK","title":"Luge Dragon","nodeId":44},
+
+{"lat":1.2571725229909456,"lon":103.81492289571759,"type":"WALK","title":"Imbiah Hill Road","nodeId":45},
+
+{"lat":1.2552739754308133,"lon":103.8151052859306,"type":"WALK","title":"Imbiah Hill Road","nodeId":46},
+
+{"lat":1.2553168804756505,"lon":103.8148531582832,"type":"WALK","title":"Imbiah Hill Road","nodeId":47},
+
+{"lat":1.25603017674294,"lon":103.81404849557873,"type":"WALK","title":"Imbiah Hill Road","nodeId":48},
+
+{"lat":1.2571188917228813,"lon":103.81351205377575,"type":"WALK","title":"Imbiah Hill Road","nodeId":49},
+
+{"lat":1.2535041417179584,"lon":103.81662341623303,"type":"WALK","title":"Cable Car Road","nodeId":50},
+
+{"lat":1.2530268227238672,"lon":103.81679507760998,"type":"WALK","title":"Cable Car Road","nodeId":51},
+
+{"lat":1.2528122973049167,"lon":103.81723495988842,"type":"WALK","title":"Cable Car Road","nodeId":52},
+
+{"lat":1.2528498392545076,"lon":103.81790551214215,"type":"WALK","title":"Cable Car Road","nodeId":53},
+
+{"lat":1.2530536384000037,"lon":103.81835075883862,"type":"WALK","title":"Cable Car Road","nodeId":54},
+
+{"lat":1.25178257504955,"lon":103.82440182237622,"type":"WALK","title":"Beach View","nodeId":55},
+
+{"lat":1.2517182173951469,"lon":103.82470759420392,"type":"WALK","title":"Gateway Avenue","nodeId":56},
+
+{"lat":1.2516216809106098,"lon":103.82484170465466,"type":"WALK","title":"Gateway Avenue","nodeId":57},
+
+{"lat":1.2533057057422354,"lon":103.82597896127697,"type":"WALK","title":"Gateway Avenue","nodeId":58},
+
+{"lat":1.2529946439121551,"lon":103.82618280916211,"type":"WALK","title":"Gateway Avenue","nodeId":59},
+
+{"lat":1.2532628006644224,"lon":103.82633301286694,"type":"WALK","title":"Gateway Avenue","nodeId":60},
+
+{"lat":1.2537937509529,"lon":103.82584485082623,"type":"WALK","title":"Gateway Avenue","nodeId":61},
+
+{"lat":1.2535872702958482,"lon":103.82614794046958,"type":"WALK","title":"Gateway Avenue","nodeId":62},
+
+{"lat":1.256276880669809,"lon":103.82394584684369,"type":"WALK","title":"Gateway Avenue","nodeId":63},
+
+{"lat":1.2535711808954435,"lon":103.81935122280117,"type":"WALK","title":"Beach View","nodeId":64},
+
+{"lat":1.2528310682796613,"lon":103.81888988285061,"type":"WALK","title":"Beach View","nodeId":65},
+
+{"lat":1.2520480503570912,"lon":103.8196087148666,"type":"WALK","title":"Beach View","nodeId":66},
+
+{"lat":1.2519944189839796,"lon":103.81917956142422,"type":"WALK","title":"Beach View","nodeId":67},
+
+{"lat":1.251592183620224,"lon":103.81931903630039,"type":"WALK","title":"Beach View","nodeId":68},
+
+{"lat":1.2515975467503675,"lon":103.81957652836491,"type":"WALK","title":"Beach View","nodeId":69},
+
+{"lat":1.2523805648165587,"lon":103.81890597612778,"type":"WALK","title":"Beach View","nodeId":70},
+
+{"lat":1.2527506212192558,"lon":103.81880136996529,"type":"WALK","title":"Beach View","nodeId":71},
+
+{"lat":1.2572610145808403,"lon":103.81130996017453,"type":"WALK","title":"Siloso Walk","nodeId":72},
+
+{"lat":1.2567997856550703,"lon":103.81176593570706,"type":"WALK","title":"Siloso Walk","nodeId":73},
+
+{"lat":1.256494087368669,"lon":103.81222191123959,"type":"WALK","title":"Siloso Walk","nodeId":74},
+
+{"lat":1.256070400210842,"lon":103.81232383518216,"type":"WALK","title":"Siloso Walk","nodeId":75},
+
+{"lat":1.2553571039545191,"lon":103.81340208320614,"type":"WALK","title":"Siloso Walk","nodeId":76},
+
+{"lat":1.2547403438767766,"lon":103.81396534709927,"type":"WALK","title":"Siloso Walk","nodeId":77},
+
+{"lat":1.2545579973911372,"lon":103.81435694961544,"type":"WALK","title":"Siloso Walk","nodeId":78},
+
+{"lat":1.2528417945510419,"lon":103.81584825782772,"type":"WALK","title":"Siloso Walk","nodeId":79},
+
+{"lat":1.2522411232913318,"lon":103.81646516590115,"type":"WALK","title":"Siloso Walk","nodeId":80},
+
+{"lat":1.2518817930969515,"lon":103.81661000518795,"type":"WALK","title":"Siloso Walk","nodeId":81},
+
+{"lat":1.2518335248581305,"lon":103.81734493045803,"type":"WALK","title":"Siloso Walk","nodeId":82},
+
+{"lat":1.2516458150320493,"lon":103.81757560043332,"type":"WALK","title":"Siloso Walk","nodeId":83},
+
+{"lat":1.2515010102999133,"lon":103.81766679553982,"type":"WALK","title":"Siloso Walk","nodeId":84},
+
+{"lat":1.2516216809106098,"lon":103.82448765306469,"type":"WALK","title":"Beach View","nodeId":85},
+
+{"lat":1.2514017922380976,"lon":103.8247773316383,"type":"WALK","title":"Gateway Avenue","nodeId":86},
+
+{"lat":1.2513562055633369,"lon":103.82460567026487,"type":"WALK","title":"Gateway Avenue","nodeId":87},
+
+{"lat":1.2490835745634741,"lon":103.82731470136639,"type":"WALK","title":"Gateway Avenue","nodeId":88},
+
+{"lat":1.2491532954256517,"lon":103.82791551618573,"type":"WALK","title":"Allanbrooke Road East","nodeId":89},
+
+{"lat":1.2489655854079103,"lon":103.82841977148053,"type":"WALK","title":"Allanbrooke Road East","nodeId":90},
+
+{"lat":1.2482254714930623,"lon":103.82910641698834,"type":"WALK","title":"Allanbrooke Road East","nodeId":91},
+
+{"lat":1.2478446881658512,"lon":103.83270594148632,"type":"WALK","title":"Allanbrooke Road East","nodeId":92},
+
+{"lat":1.247512173102638,"lon":103.83356424837109,"type":"WALK","title":"Allanbrooke Road East","nodeId":93},
+
+{"lat":1.2472440157629858,"lon":103.8337466385841,"type":"WALK","title":"Allanbrooke Road East","nodeId":94},
+
+{"lat":1.2464288172826683,"lon":103.83461567430493,"type":"WALK","title":"Allanbrooke Road East","nodeId":95},
+
+{"lat":1.2461392072354764,"lon":103.83577438859936,"type":"WALK","title":"Allanbrooke Road East","nodeId":96},
+
+{"lat":1.246986584691216,"lon":103.83708330659863,"type":"WALK","title":"Allanbrooke Road East","nodeId":97},
+
+{"lat":1.2464127278836503,"lon":103.83652540701826,"type":"WALK","title":"Allanbrooke Road East","nodeId":98},
+
+{"lat":1.24779641989109,"lon":103.83828225404909,"type":"WALK","title":"Core Avenue","nodeId":99},
+
+{"lat":1.2476891569318329,"lon":103.83775922327038,"type":"WALK","title":"Cove Avenue","nodeId":100},
+
+{"lat":1.2477374252468216,"lon":103.83800062208172,"type":"WALK","title":"Cove Avenue","nodeId":101},
+
+{"lat":1.2474853573699005,"lon":103.83868726758954,"type":"WALK","title":"Cove Drive","nodeId":102},
+
+{"lat":1.2472440157629858,"lon":103.83883747129437,"type":"WALK","title":"Cove Drive","nodeId":103},
+
+{"lat":1.2465039013637775,"lon":103.83891793756482,"type":"WALK","title":"Cove Drive","nodeId":104},
+
+{"lat":1.245828144556735,"lon":103.83926662473675,"type":"WALK","title":"Cove Drive","nodeId":105},
+
+{"lat":1.2445517145595002,"lon":103.8395455744743,"type":"WALK","title":"Cove Drive","nodeId":106},
+
+{"lat":1.2451631138054318,"lon":103.8394972947458,"type":"WALK","title":"Cove Drive","nodeId":107},
+
+{"lat":1.2436936100123694,"lon":103.83857997922894,"type":"WALK","title":"Cove Drive","nodeId":108},
+
+{"lat":1.2442916016546206,"lon":103.83940878173576,"type":"WALK","title":"Cove Drive","nodeId":109},
+
+{"lat":1.2431036629743761,"lon":103.83672389059063,"type":"WALK","title":"Cove Drive","nodeId":110},
+
+{"lat":1.2425673473708918,"lon":103.83609625368115,"type":"WALK","title":"Cove Drive","nodeId":111},
+
+{"lat":1.2429427683089398,"lon":103.8363752033938,"type":"WALK","title":"Cove Drive","nodeId":112},
+
+{"lat":1.2420578474467245,"lon":103.83524331121441,"type":"WALK","title":"Cove Drive","nodeId":113},
+
+{"lat":1.2411407473357126,"lon":103.83428308038708,"type":"WALK","title":"Cove Drive","nodeId":114},
+
+{"lat":1.2409154946160266,"lon":103.83414092329713,"type":"WALK","title":"Cove Drive","nodeId":115},
+
+{"lat":1.2393896751927023,"lon":103.83397462634184,"type":"WALK","title":"Cove Drive","nodeId":116},
+
+{"lat":1.239317272486232,"lon":103.83408191471096,"type":"WALK","title":"Cove Drive","nodeId":117},
+
+{"lat":1.2394030830955582,"lon":103.83420529632565,"type":"WALK","title":"Cove Drive","nodeId":118},
+
+{"lat":1.238839950921095,"lon":103.83389684228894,"type":"WALK","title":"Cove Drive","nodeId":119},
+
+{"lat":1.2384001714254684,"lon":103.83346232442852,"type":"WALK","title":"Cove Drive","nodeId":120},
+
+{"lat":1.2383250871378901,"lon":103.83311095504394,"type":"WALK","title":"Cove Drive","nodeId":121},
+
+{"lat":1.2383465397746816,"lon":103.83274885683056,"type":"WALK","title":"Cove Drive","nodeId":122},
+
+{"lat":1.2388345877735347,"lon":103.83207830470531,"type":"WALK","title":"Cove Drive","nodeId":123},
+
+{"lat":1.2394406252361987,"lon":103.83150431184765,"type":"WALK","title":"Cove Drive","nodeId":124},
+
+{"lat":1.2405186207635504,"lon":103.83132192163464,"type":"WALK","title":"Cove Drive","nodeId":125},
+
+{"lat":1.2406312471366054,"lon":103.83111270933148,"type":"WALK","title":"Cove Drive","nodeId":126},
+
+{"lat":1.2408162761662087,"lon":103.83106979399645,"type":"WALK","title":"Cove Drive","nodeId":127},
+
+{"lat":1.2405293470850058,"lon":103.8309356835365,"type":"WALK","title":"Cove Drive","nodeId":128},
+
+{"lat":1.2409691262269802,"lon":103.83082303075787,"type":"WALK","title":"Cove Drive","nodeId":129},
+
+{"lat":1.2436560679320705,"lon":103.827963795948,"type":"WALK","title":"Cove Drive","nodeId":130},
+
+{"lat":1.2435756206153124,"lon":103.82777067689892,"type":"WALK","title":"Cove Drive","nodeId":131},
+
+{"lat":1.2438598677901636,"lon":103.82774385480877,"type":"WALK","title":"Cove Drive","nodeId":132},
+
+{"lat":1.2452978630521412,"lon":103.82645639448163,"type":"WALK","title":"Cove Drive","nodeId":133},
+
+{"lat":1.2454426681259707,"lon":103.82643493680951,"type":"WALK","title":"Cove Drive","nodeId":134},
+
+{"lat":1.248241560928351,"lon":103.82763388423916,"type":"WALK","title":"Allanbrooke Road","nodeId":135},
+
+{"lat":1.2480055825363354,"lon":103.82683458595272,"type":"WALK","title":"Allanbrooke Road","nodeId":136},
+
+{"lat":1.2478285987642124,"lon":103.82563966175781,"type":"WALK","title":"New Node","nodeId":137},
+
+{"lat":1.2461552966835259,"lon":103.82909837036129,"type":"WALK","title":"Bukit Manis Road","nodeId":138},
+
+{"lat":1.2456940658047044,"lon":103.82914665012356,"type":"WALK","title":"Bukit Manis Road","nodeId":139},
+
+{"lat":1.2451202086683584,"lon":103.8288301494598,"type":"WALK","title":"Bukit Manis Road","nodeId":140},
+
+{"lat":1.2453964109396489,"lon":103.82907959488102,"type":"WALK","title":"Bukit Manis Road","nodeId":141},
+
+{"lat":1.2475336256886678,"lon":103.82432135610577,"type":"WALK","title":"Siloso Walk","nodeId":142},
+
+{"lat":1.2481772031870682,"lon":103.82324847249981,"type":"WALK","title":"Siloso Walk","nodeId":143},
+
+{"lat":1.2487135176487587,"lon":103.8225081828117,"type":"WALK","title":"Siloso Walk","nodeId":144},
+
+{"lat":1.2485258076119847,"lon":103.82286759885744,"type":"WALK","title":"Siloso Walk","nodeId":145},
+
+{"lat":1.2499577667783834,"lon":103.82173570661541,"type":"WALK","title":"Siloso Walk","nodeId":146},
+
+{"lat":1.250392181206349,"lon":103.82106515436169,"type":"WALK","title":"Siloso Walk","nodeId":147},
+
+{"lat":1.2509016795179242,"lon":103.81983670263287,"type":"WALK","title":"Siloso Walk","nodeId":148},
+
+{"lat":1.2507917352132891,"lon":103.82017197881942,"type":"WALK","title":"Siloso Walk","nodeId":149},
+
+{"lat":1.2509392214948549,"lon":103.81970259218213,"type":"WALK","title":"Siloso Walk","nodeId":150},
+
+{"lat":1.250713969625153,"lon":103.81865116624829,"type":"WALK","title":"Siloso Walk","nodeId":151},
+
+{"lat":1.2506978802051563,"lon":103.81785186796185,"type":"WALK","title":"Siloso Walk","nodeId":152},
+
+{"lat":1.2508641375404463,"lon":103.81756218938824,"type":"WALK","title":"Siloso Walk","nodeId":153},
+
+{"lat":1.2526983306689425,"lon":103.82188591032025,"type":"WALK","title":"Beach View","nodeId":154},
+
+{"lat":1.252506598552577,"lon":103.8234254982948,"type":"WALK","title":"Beach View","nodeId":155},
+
+{"lat":1.2405507997278147,"lon":103.83405777482983,"type":"WALK","title":"Cove Drive","nodeId":156},
+
+{"lat":1.2395049831905152,"lon":103.83407655029293,"type":"WALK","title":"Cove Drive","nodeId":157},
+
+{"lat":1.2396497885818405,"lon":103.83514675168988,"type":"WALK","title":"Cove Drive","nodeId":158},
+
+{"lat":1.2580507348488237,"lon":103.81008955507275,"type":"WALK","title":"Default Node","nodeId":159},
+
+{"lat":1.255590400119952,"lon":103.81577583818432,"type":"WALK","title":"Imbiah Hill Road","nodeId":160},
+
+{"lat":1.2563492828197964,"lon":103.81526353639163,"type":"WALK","title":"Sentosa Cineblast","nodeId":161},
+
+{"lat":1.241741421128671,"lon":103.83632424144741,"type":"WALK","title":"Cove Drive","nodeId":162},
+
+{"lat":1.2409369472679319,"lon":103.83636179237362,"type":"WALK","title":"Cove Drive","nodeId":163},
+
+{"lat":1.2409423104278072,"lon":103.83596482543942,"type":"WALK","title":"Cove Drive","nodeId":164},
+
+{"lat":1.2413820895011198,"lon":103.83636715679165,"type":"WALK","title":"Cove Drive","nodeId":165},
+
+{"lat":1.2434898101415033,"lon":103.83857729701992,"type":"WALK","title":"Cove Drive","nodeId":166},
+
+{"lat":1.2434576312130647,"lon":103.83848610191342,"type":"WALK","title":"Cove Drive","nodeId":167},
+
+{"lat":1.2426746105003848,"lon":103.83890452651974,"type":"WALK","title":"Cove Way","nodeId":168},
+
+{"lat":1.2422401947993831,"lon":103.8380140331268,"type":"WALK","title":"Cove Way","nodeId":169},
+
+{"lat":1.2418379579755114,"lon":103.83774044780728,"type":"WALK","title":"Cove Way","nodeId":170},
+
+{"lat":1.2414732632022829,"lon":103.83769753246304,"type":"WALK","title":"Cove Way","nodeId":171},
+
+{"lat":1.2422348316421286,"lon":103.83914056091305,"type":"WALK","title":"Cove Drive","nodeId":172},
+
+{"lat":1.240776052466406,"lon":103.83885624675747,"type":"WALK","title":"Cove Way","nodeId":173},
+
+{"lat":1.240427447029564,"lon":103.83858266143795,"type":"WALK","title":"Cove Way","nodeId":174},
+
+{"lat":1.2402182837454088,"lon":103.83808377056118,"type":"WALK","title":"Cove Way","nodeId":175},
+
+{"lat":1.2401485626470177,"lon":103.83732738761898,"type":"WALK","title":"Cove Way","nodeId":176},
+
+{"lat":1.240062752061851,"lon":103.83718254833218,"type":"WALK","title":"Cove Way","nodeId":177},
+
+{"lat":1.2475068099561975,"lon":103.83917274742123,"type":"WALK","title":"Cove Drive","nodeId":178},
+
+{"lat":1.2476945200780829,"lon":103.83903327255246,"type":"WALK","title":"Cove Drive","nodeId":179},
+
+{"lat":1.2476194360308528,"lon":103.83874627618786,"type":"WALK","title":"Cove Drive","nodeId":180},
+
+{"lat":1.2489977642691246,"lon":103.84069087772366,"type":"WALK","title":"Ocean Drive","nodeId":181},
+
+{"lat":1.2489387696900831,"lon":103.84105565814969,"type":"WALK","title":"Ocean Drive","nodeId":182},
+
+{"lat":1.2488180989791864,"lon":103.84027513528451,"type":"WALK","title":"Ocean Drive","nodeId":183},
+
+{"lat":1.2478929564780663,"lon":103.83787455825802,"type":"WALK","title":"Core Avenue","nodeId":184},
+
+{"lat":1.2477454699676787,"lon":103.83750039007407,"type":"WALK","title":"Cove Avenue","nodeId":185},
+
+{"lat":1.2488207805280056,"lon":103.83955898551938,"type":"WALK","title":"Lakeshore View","nodeId":186},
+
+{"lat":1.2489977642691246,"lon":103.83990767269131,"type":"WALK","title":"Lakeshore View","nodeId":187},
+
+{"lat":1.2487725122329016,"lon":103.83904400138852,"type":"WALK","title":"Lakeshore View","nodeId":188},
+
+{"lat":1.2496467045512552,"lon":103.83751514225003,"type":"WALK","title":"Lakeshore View","nodeId":189},
+
+{"lat":1.2503653655030251,"lon":103.83690359859463,"type":"WALK","title":"Lakeshore View","nodeId":190},
+
+{"lat":1.2509231320762704,"lon":103.83622231750485,"type":"WALK","title":"Lakeshore View","nodeId":191},
+
+{"lat":1.2482791029432452,"lon":103.83895817070004,"type":"WALK","title":"Lakeshore View","nodeId":192},
+
+{"lat":1.2482522872183317,"lon":103.84187104969021,"type":"WALK","title":"W Singapore – Sentosa Cove (Opening soon)","nodeId":193},
+
+{"lat":1.2472708314982679,"lon":103.84257915287014,"type":"WALK","title":"Ocean Way","nodeId":194},
+
+{"lat":1.2466165274815104,"lon":103.84236994056698,"type":"WALK","title":"Ocean Way","nodeId":195},
+
+{"lat":1.2494160894280297,"lon":103.84123268394467,"type":"WALK","title":"Ocean Drive","nodeId":196},
+
+{"lat":1.2497325148244858,"lon":103.84147408275601,"type":"WALK","title":"Ocean Drive","nodeId":197},
+
+{"lat":1.2497378779664736,"lon":103.84160282878872,"type":"WALK","title":"Ocean Drive","nodeId":198},
+
+{"lat":1.2495984362713288,"lon":103.84161892204281,"type":"WALK","title":"Ocean Drive","nodeId":199},
+
+{"lat":1.2495340785633653,"lon":103.84147944717404,"type":"WALK","title":"Ocean Drive","nodeId":200},
+
+{"lat":1.2505959805428819,"lon":103.84232702522274,"type":"WALK","title":"Ocean Drive","nodeId":201},
+
+{"lat":1.2516686083688318,"lon":103.84277227191922,"type":"WALK","title":"Ocean Drive","nodeId":202},
+
+{"lat":1.2515452561911742,"lon":103.84266498355862,"type":"WALK","title":"Ocean Drive","nodeId":203},
+
+{"lat":1.2525320734499974,"lon":103.84538876681324,"type":"WALK","title":"Ocean Drive","nodeId":204},
+
+{"lat":1.2527090569408195,"lon":103.84602713255879,"type":"WALK","title":"Ocean Drive","nodeId":205},
+
+{"lat":1.2521512907474088,"lon":103.84723412661549,"type":"WALK","title":"Ocean Drive","nodeId":206},
+
+{"lat":1.2525159840957743,"lon":103.84667890941364,"type":"WALK","title":"Ocean Drive","nodeId":207},
+
+{"lat":1.2518348656425844,"lon":103.8474165168285,"type":"WALK","title":"Ocean Drive","nodeId":208},
+
+{"lat":1.2509392214948931,"lon":103.84740578799244,"type":"WALK","title":"Ocean Drive","nodeId":209},
+
+{"lat":1.2501293873017412,"lon":103.84704100756642,"type":"WALK","title":"Ocean Drive","nodeId":210},
+
+{"lat":1.2490728482769158,"lon":103.84664940505024,"type":"WALK","title":"Ocean Drive","nodeId":211},
+
+{"lat":1.2495689389428781,"lon":103.84697931671963,"type":"WALK","title":"Ocean Drive","nodeId":212},
+
+{"lat":1.2486813387841855,"lon":103.84597348837849,"type":"WALK","title":"Ocean Drive","nodeId":213},
+
+{"lat":1.2472225631747045,"lon":103.84498107104298,"type":"WALK","title":"Ocean Drive","nodeId":214},
+
+{"lat":1.2466326169264936,"lon":103.84490060477253,"type":"WALK","title":"Ocean Drive","nodeId":215},
+
+{"lat":1.2447662406527411,"lon":103.84371506838795,"type":"WALK","title":"Ocean Drive","nodeId":216},
+
+{"lat":1.2441870201611573,"lon":103.84307670264241,"type":"WALK","title":"Ocean Drive","nodeId":217},
+
+{"lat":1.2443103726839051,"lon":103.84294259219166,"type":"WALK","title":"Ocean Drive","nodeId":218},
+
+{"lat":1.2491425691393605,"lon":103.84224521784779,"type":"WALK","title":"Ocean Drive","nodeId":219},
+
+{"lat":1.2490192168430045,"lon":103.84285676150319,"type":"WALK","title":"Treasure Island","nodeId":220},
+
+{"lat":1.2484721761545756,"lon":103.84351658492085,"type":"WALK","title":"Treasure Island","nodeId":221},
+
+{"lat":1.2481235717349259,"lon":103.84371506838795,"type":"WALK","title":"Treasure Island","nodeId":222},
+
+{"lat":1.2501722924308247,"lon":103.84362387328144,"type":"WALK","title":"Ocean Drive","nodeId":223},
+
+{"lat":1.2500113981931604,"lon":103.84373652606007,"type":"WALK","title":"Paradise Island","nodeId":224},
+
+{"lat":1.2500006719102914,"lon":103.8434897628307,"type":"WALK","title":"Ocean Drive","nodeId":225},
+
+{"lat":1.2494321788558889,"lon":103.84458410410878,"type":"WALK","title":"Ocean Drive","nodeId":226},
+
+{"lat":1.2513629094831249,"lon":103.84604859023091,"type":"WALK","title":"Coral Island","nodeId":227},
+
+{"lat":1.2511644733452574,"lon":103.84613442091938,"type":"WALK","title":"Coral Island","nodeId":228},
+
+{"lat":1.2509928528895944,"lon":103.84538340239521,"type":"WALK","title":"Coral Island","nodeId":229},
+
+{"lat":1.2509982160289996,"lon":103.84521710543629,"type":"WALK","title":"Coral Island","nodeId":230},
+
+{"lat":1.251397769898718,"lon":103.84590375092068,"type":"WALK","title":"New Node","nodeId":231},
+
+{"lat":1.2471635685558677,"lon":103.83431929020878,"type":"WALK","title":"Woodwich Road","nodeId":232},
+
+{"lat":1.2474799942234089,"lon":103.83493083386418,"type":"WALK","title":"Woodwich Road","nodeId":233},
+
+{"lat":1.2485311707441003,"lon":103.83533852963444,"type":"WALK","title":"Woodwich Road","nodeId":234},
+
+{"lat":1.2489387696900831,"lon":103.83547800450322,"type":"WALK","title":"Woodwich Road","nodeId":235},
+
+{"lat":1.2488636856784627,"lon":103.83603590397831,"type":"WALK","title":"Woodwich Road","nodeId":236},
+
+{"lat":1.2481986557676781,"lon":103.8363577690601,"type":"WALK","title":"Woodwich Road","nodeId":237},
+
+{"lat":1.2474639047835272,"lon":103.83737834959027,"type":"WALK","title":"Cove Avenue","nodeId":238},
+
+{"lat":1.2518657036841043,"lon":103.81702306537625,"type":"WALK","title":"Siloso Walk","nodeId":239},
+
+{"lat":1.2591781231103072,"lon":103.80832796748143,"type":"WALK","title":"Siloso Road","nodeId":240},
+
+{"lat":1.2593164320293127,"lon":103.80812148420807,"type":"WALK","title":"Siloso Road","nodeId":241},
+
+{"lat":1.2594290575961098,"lon":103.80778889029023,"type":"WALK","title":"Siloso Road","nodeId":242},
+
+{"lat":1.259246711437902,"lon":103.80723099081513,"type":"WALK","title":"Siloso Road","nodeId":243},
+
+{"lat":1.2593807894966609,"lon":103.80710760920044,"type":"WALK","title":"Siloso Road","nodeId":244},
+
+{"lat":1.259514867548486,"lon":103.80703250734803,"type":"WALK","title":"Siloso Road","nodeId":245},
+
+{"lat":1.2596274931067084,"lon":103.80697886316773,"type":"WALK","title":"Siloso Road","nodeId":246},
+
+{"lat":1.2596811243231969,"lon":103.80711297361847,"type":"WALK","title":"Siloso Road","nodeId":247},
+
+{"lat":1.259595314376291,"lon":103.80738119451996,"type":"WALK","title":"Siloso Road","nodeId":248},
+
+{"lat":1.2590697283897876,"lon":103.80820731489655,"type":"WALK","title":"Siloso Road","nodeId":249},
+
+{"lat":1.2587747566162604,"lon":103.80840579836365,"type":"WALK","title":"Siloso Road","nodeId":250},
+
+{"lat":1.2584315166923061,"lon":103.80775670378205,"type":"WALK","title":"Siloso Road","nodeId":251},
+
+{"lat":1.2587640303693188,"lon":103.80855063765046,"type":"WALK","title":"Siloso Road","nodeId":252},
+
+{"lat":1.2585119635535325,"lon":103.80875984995362,"type":"WALK","title":"Siloso Road","nodeId":253},
+
+{"lat":1.2585977735361114,"lon":103.80888859598633,"type":"WALK","title":"Siloso Road","nodeId":254},
+
+{"lat":1.2584368798164702,"lon":103.80915681688782,"type":"WALK","title":"Siloso Road","nodeId":255},
+
+{"lat":1.2586782203922107,"lon":103.80907635061737,"type":"WALK","title":"Siloso Road","nodeId":256},
+
+{"lat":1.2586353154026007,"lon":103.80918363897797,"type":"WALK","title":"Siloso Road","nodeId":257},
+
+{"lat":1.2587962091100031,"lon":103.80922655432221,"type":"WALK","title":"Siloso Road","nodeId":258},
+
+{"lat":1.2587264885046745,"lon":103.80948941080567,"type":"WALK","title":"Siloso Road","nodeId":259},
+
+{"lat":1.2587640303693188,"lon":103.80990247099396,"type":"WALK","title":"Siloso Road","nodeId":260},
+
+{"lat":1.2589249240687699,"lon":103.80953769056794,"type":"WALK","title":"Siloso Road","nodeId":261},
+
+{"lat":1.2591126333722607,"lon":103.80966107218262,"type":"WALK","title":"Siloso Road","nodeId":262},
+
+{"lat":1.2592520745603868,"lon":103.8093338426828,"type":"WALK","title":"Siloso Road","nodeId":263},
+
+{"lat":1.2591501752313328,"lon":103.80928556292054,"type":"WALK","title":"Siloso Road","nodeId":264},
+
+{"lat":1.2590160971607296,"lon":103.80926946966645,"type":"WALK","title":"Siloso Road","nodeId":265},
+
+{"lat":1.2589410134381707,"lon":103.8091353592157,"type":"WALK","title":"Siloso Road","nodeId":266},
+
+{"lat":1.2590750915126412,"lon":103.80921046106812,"type":"WALK","title":"Siloso Road","nodeId":267},
+
+{"lat":1.2591930802124698,"lon":103.80888859598633,"type":"WALK","title":"Siloso Road","nodeId":268},
+
+{"lat":1.2592788901726193,"lon":103.80911926596161,"type":"WALK","title":"Siloso Road","nodeId":269},
+
+{"lat":1.2593217951516573,"lon":103.80892078249451,"type":"WALK","title":"Siloso Road","nodeId":270},
+
+{"lat":1.2595202306704236,"lon":103.80900661318299,"type":"WALK","title":"Siloso Road","nodeId":271},
+
+{"lat":1.2595255937923358,"lon":103.80914608805176,"type":"WALK","title":"Siloso Road","nodeId":272},
+
+{"lat":1.2567796739267998,"lon":103.81169888048169,"type":"WALK","title":"Siloso Walk","nodeId":273},
+
+{"lat":1.2564686125098479,"lon":103.8121333983421,"type":"WALK","title":"Siloso Walk","nodeId":274},
+
+{"lat":1.2560395622188241,"lon":103.81225677995678,"type":"WALK","title":"Siloso Walk","nodeId":275},
+
+{"lat":1.2553530816066665,"lon":103.81329747705456,"type":"WALK","title":"Siloso Walk","nodeId":276},
+
+{"lat":1.255090288199612,"lon":103.81346913843152,"type":"WALK","title":"Siloso Walk","nodeId":277},
+
+{"lat":1.2546826902098944,"lon":103.81395730047223,"type":"WALK","title":"Siloso Walk","nodeId":278},
+
+{"lat":1.2536583318238574,"lon":103.81501409082409,"type":"WALK","title":"Siloso Walk","nodeId":279},
+
+{"lat":1.251872407606144,"lon":103.81650539903637,"type":"WALK","title":"Siloso Walk","nodeId":280},
+
+{"lat":1.2517651448516132,"lon":103.81671461133954,"type":"WALK","title":"Siloso Walk","nodeId":281},
+
+{"lat":1.2513414569283665,"lon":103.81718668012616,"type":"WALK","title":"Siloso Walk","nodeId":282},
+
+{"lat":1.2515546416831136,"lon":103.81755950717923,"type":"WALK","title":"Siloso Walk","nodeId":283},
+
+{"lat":1.2508158692828983,"lon":103.81885501413342,"type":"WALK","title":"Siloso Walk","nodeId":284},
+
+{"lat":1.2505691648415682,"lon":103.82041069536206,"type":"WALK","title":"Siloso Walk","nodeId":285},
+
+{"lat":1.250408270628216,"lon":103.82037314443585,"type":"WALK","title":"Siloso Walk","nodeId":286},
+
+{"lat":1.2501454767251983,"lon":103.82066818742749,"type":"WALK","title":"Siloso Walk","nodeId":287},
+
+{"lat":1.2498773196541759,"lon":103.82108661203381,"type":"WALK","title":"Siloso Walk","nodeId":288},
+
+{"lat":1.2499202247873817,"lon":103.8212475445747,"type":"WALK","title":"Siloso Walk","nodeId":289},
+
+{"lat":1.2481289348801579,"lon":103.82321628599163,"type":"WALK","title":"Siloso Walk","nodeId":290},
+
+{"lat":1.2479251353522955,"lon":103.8237688210487,"type":"WALK","title":"Siloso Walk","nodeId":291},
+
+{"lat":1.247072395051263,"lon":103.825083103466,"type":"WALK","title":"Cove Drive","nodeId":292},
+
+{"lat":1.2481342980254155,"lon":103.82143529920575,"type":"WALK","title":"Siloso Walk","nodeId":293},
+
+{"lat":1.2561253722826724,"lon":103.81677361993786,"type":"WALK","title":"Sentosa Cineblast","nodeId":294},
+
+{"lat":1.2556654839388692,"lon":103.81604942350384,"type":"WALK","title":"Siloso Road","nodeId":295},
+
+{"lat":1.256364031507895,"lon":103.81261619596478,"type":"WALK","title":"Siloso Walk","nodeId":296},
+
+{"lat":1.2559778862336815,"lon":103.81307217149731,"type":"WALK","title":"Siloso Walk","nodeId":297},
+
+{"lat":1.2557955398343623,"lon":103.8134476807594,"type":"WALK","title":"Siloso Walk","nodeId":298},
+
+{"lat":1.2559778862336941,"lon":103.81365152864453,"type":"WALK","title":"Siloso Walk","nodeId":299},
+
+{"lat":1.2559081655530882,"lon":103.81411823301312,"type":"WALK","title":"Siloso Walk","nodeId":300},
+
+{"lat":1.2554335285628262,"lon":103.81559613018033,"type":"WALK","title":"Imbiah Hill Road","nodeId":301},
+
+{"lat":1.2554174391718105,"lon":103.81580534248349,"type":"WALK","title":"Imbiah Hill Road","nodeId":302},
+
+{"lat":1.2550581094133568,"lon":103.81612184314724,"type":"WALK","title":"Imbiah Hill Road","nodeId":303},
+
+{"lat":1.2549722993144843,"lon":103.81645443706509,"type":"WALK","title":"Imbiah Hill Road","nodeId":304},
+
+{"lat":1.2549722993144843,"lon":103.81676020889279,"type":"WALK","title":"Imbiah Hill Road","nodeId":305},
+
+{"lat":1.2551117407237227,"lon":103.81696405677792,"type":"WALK","title":"Imbiah Hill Road","nodeId":306},
+
+{"lat":1.2541852596824754,"lon":103.8167628911018,"type":"WALK","title":"Luge Dragon","nodeId":307},
+
+{"lat":1.2541101758210786,"lon":103.81682189970013,"type":"WALK","title":"Luge Dragon","nodeId":308},
+
+{"lat":1.2552404558639847,"lon":103.81718131570813,"type":"WALK","title":"Siloso Road","nodeId":309},
+
+{"lat":1.2549401205265371,"lon":103.81772312192913,"type":"WALK","title":"Siloso Road","nodeId":310},
+
+{"lat":1.2542965446873304,"lon":103.81794306306836,"type":"WALK","title":"Siloso Road","nodeId":311},
+
+{"lat":1.2540927456385866,"lon":103.81829175024029,"type":"WALK","title":"Siloso Road","nodeId":312},
+
+{"lat":1.2540873825055172,"lon":103.81856533555981,"type":"WALK","title":"Siloso Road","nodeId":313},
+
+{"lat":1.2528860404196065,"lon":103.81858679323193,"type":"WALK","title":"Siloso Road","nodeId":314},
+
+{"lat":1.252162017021385,"lon":103.81807180910107,"type":"WALK","title":"Siloso Road","nodeId":315},
+
+{"lat":1.2521888327063759,"lon":103.81794842748639,"type":"WALK","title":"Siloso Road","nodeId":316},
+
+{"lat":1.2520493911414559,"lon":103.81819519071576,"type":"WALK","title":"Siloso Road","nodeId":317},
+
+{"lat":1.2521512907473198,"lon":103.81788405447003,"type":"WALK","title":"Siloso Road","nodeId":318},
+
+{"lat":1.251990396631,"lon":103.81814691095349,"type":"WALK","title":"Siloso Road","nodeId":319},
+
+{"lat":1.2520815699647963,"lon":103.81788405447003,"type":"WALK","title":"Siloso Road","nodeId":320},
+
+{"lat":1.2519796703562223,"lon":103.8179698851585,"type":"WALK","title":"Siloso Road","nodeId":321},
+
+{"lat":1.2516029099270616,"lon":103.81772580413815,"type":"WALK","title":"Siloso Walk","nodeId":322},
+
+{"lat":1.2533526331702167,"lon":103.81903740434643,"type":"WALK","title":"Siloso Road","nodeId":323},
+
+{"lat":1.2536529686898466,"lon":103.81896230249402,"type":"WALK","title":"Siloso Road","nodeId":324},
+
+{"lat":1.2553959866501681,"lon":103.82015856771466,"type":"WALK","title":"Resorts World Sentosa","nodeId":325},
+
+{"lat":1.2559269365057213,"lon":103.82030340700146,"type":"WALK","title":"Resorts World Sentosa","nodeId":326},
+
+{"lat":1.2570371040368844,"lon":103.82013174562451,"type":"WALK","title":"Resorts World Sentosa","nodeId":327},
+
+{"lat":1.2565115175350547,"lon":103.82078754572865,"type":"WALK","title":"Universal Studios Singapore","nodeId":328},
+
+{"lat":1.2564149812272929,"lon":103.82135617403981,"type":"WALK","title":"Universal Studios Singapore","nodeId":329},
+
+{"lat":1.2546773270779827,"lon":103.82124352126118,"type":"WALK","title":"Universal Studios Singapore","nodeId":330},
+
+{"lat":1.2552833608602485,"lon":103.82166462799364,"type":"WALK","title":"Universal Studios Singapore","nodeId":331},
+
+{"lat":1.2553262659540536,"lon":103.82171022562977,"type":"WALK","title":"Universal Studios Singapore","nodeId":332},
+
+{"lat":1.2554978861257564,"lon":103.82210719256398,"type":"WALK","title":"Universal Studios Singapore","nodeId":333},
+
+{"lat":1.2559698415398466,"lon":103.82197308211323,"type":"WALK","title":"Universal Studios Singapore","nodeId":334},
+
+{"lat":1.2552994503012116,"lon":103.82253098158833,"type":"WALK","title":"Universal Studios Singapore","nodeId":335},
+
+{"lat":1.2549454836578637,"lon":103.82219302325245,"type":"WALK","title":"Universal Studios Singapore","nodeId":336},
+
+{"lat":1.2544788911911753,"lon":103.82223593859669,"type":"WALK","title":"Universal Studios Singapore","nodeId":337},
+
+{"lat":1.2539962092415404,"lon":103.82190870909687,"type":"WALK","title":"Universal Studios Singapore","nodeId":338},
+
+{"lat":1.2537173262967194,"lon":103.82198381094929,"type":"WALK","title":"Universal Studios Singapore","nodeId":339},
+
+{"lat":1.2535188903371282,"lon":103.82254171042439,"type":"WALK","title":"Universal Studios Singapore","nodeId":340},
+
+{"lat":1.2537280525643852,"lon":103.82287966876027,"type":"WALK","title":"Universal Studios Singapore","nodeId":341},
+
+{"lat":1.2539425779083,"lon":103.82284748225209,"type":"WALK","title":"Universal Studios Singapore","nodeId":342},
+
+{"lat":1.2540605668399656,"lon":103.82322299151417,"type":"WALK","title":"Universal Studios Singapore","nodeId":343},
+
+{"lat":1.2542482764930119,"lon":103.82330345778462,"type":"WALK","title":"Universal Studios Singapore","nodeId":344},
+
+{"lat":1.253561795410743,"lon":103.82403301863667,"type":"WALK","title":"Universal Studios Singapore","nodeId":345},
+
+{"lat":1.2534330801877738,"lon":103.82427441744801,"type":"WALK","title":"Universal Studios Singapore","nodeId":346},
+
+{"lat":1.2534062645155304,"lon":103.82459091811177,"type":"WALK","title":"Universal Studios Singapore","nodeId":347},
+
+{"lat":1.2536100636177328,"lon":103.82471966414448,"type":"WALK","title":"Universal Studios Singapore","nodeId":348},
+
+{"lat":1.2539264885081245,"lon":103.824633833456,"type":"WALK","title":"Universal Studios Singapore","nodeId":349},
+
+{"lat":1.2541088350377445,"lon":103.82436561255452,"type":"WALK","title":"Universal Studios Singapore","nodeId":350},
+
+{"lat":1.2540873825055172,"lon":103.824092027235,"type":"WALK","title":"Universal Studios Singapore","nodeId":351},
+
+{"lat":1.2546344220226495,"lon":103.82388281493184,"type":"WALK","title":"Universal Studios Singapore","nodeId":352},
+
+{"lat":1.2549025786069326,"lon":103.82362532286641,"type":"WALK","title":"Universal Studios Singapore","nodeId":353},
+
+{"lat":1.2553048134318003,"lon":103.82335173754689,"type":"WALK","title":"Universal Studios Singapore","nodeId":354},
+
+{"lat":1.2553745341284872,"lon":103.82312106757161,"type":"WALK","title":"Universal Studios Singapore","nodeId":355},
+
+{"lat":1.2553316290845915,"lon":103.82293867735859,"type":"WALK","title":"Universal Studios Singapore","nodeId":356},
+
+{"lat":1.2554978861257564,"lon":103.82284748225209,"type":"WALK","title":"Universal Studios Singapore","nodeId":357},
+
+{"lat":1.255685595675651,"lon":103.82265972762104,"type":"WALK","title":"Universal Studios Singapore","nodeId":358},
+
+{"lat":1.2556802325458383,"lon":103.82253098158833,"type":"WALK","title":"Universal Studios Singapore","nodeId":359},
+
+{"lat":1.2557285007137455,"lon":103.82240759997364,"type":"WALK","title":"Universal Studios Singapore","nodeId":360},
+
+{"lat":1.2556748694160256,"lon":103.82222520976063,"type":"WALK","title":"Universal Studios Singapore","nodeId":361},
+
+{"lat":1.2405132576028228,"lon":103.83158343701359,"type":"WALK","title":"Cove Drive","nodeId":362},
+
+{"lat":1.2402558258744718,"lon":103.83169072537419,"type":"WALK","title":"Cove Drive","nodeId":363},
+
+{"lat":1.2397892308030107,"lon":103.83174571065899,"type":"WALK","title":"Cove Drive","nodeId":364},
+
+{"lat":1.2391617407496991,"lon":103.83101480870243,"type":"WALK","title":"Cove Drive","nodeId":365},
+
+{"lat":1.2396658780692269,"lon":103.83056419758793,"type":"WALK","title":"Cove Drive","nodeId":366},
+
+{"lat":1.2384001714254684,"lon":103.83179801373478,"type":"WALK","title":"Cove Drive","nodeId":367},
+
+{"lat":1.2378853075329923,"lon":103.83272069363591,"type":"WALK","title":"Cove Drive","nodeId":368},
+
+{"lat":1.2380247498470858,"lon":103.83357900052067,"type":"WALK","title":"Cove Drive","nodeId":369},
+
+{"lat":1.2390115721678889,"lon":103.83481281666752,"type":"WALK","title":"Cove Drive","nodeId":370},
+
+{"lat":1.239140288095669,"lon":103.83623975186345,"type":"WALK","title":"Cove Drive","nodeId":371},
+
+{"lat":1.2399983941210835,"lon":103.8368620243549,"type":"WALK","title":"Cove Drive","nodeId":372},
+
+{"lat":1.2399662151501527,"lon":103.83704441456791,"type":"WALK","title":"Cove Drive","nodeId":373},
+
+{"lat":1.2396336990942631,"lon":103.83706587224003,"type":"WALK","title":"Cove Drive","nodeId":374},
+
+{"lat":1.2396068832815284,"lon":103.83672925500866,"type":"WALK","title":"Cove Drive","nodeId":375},
+
+{"lat":1.2394191725844206,"lon":103.83721607594487,"type":"WALK","title":"Cove Drive","nodeId":376},
+
+{"lat":1.2389579405294553,"lon":103.83710878758427,"type":"WALK","title":"Cove Drive","nodeId":377},
+
+{"lat":1.2387219613074803,"lon":103.83681910901066,"type":"WALK","title":"Cove Drive","nodeId":378},
+
+{"lat":1.2409101314682756,"lon":103.84009140400883,"type":"WALK","title":"Cove Drive","nodeId":379},
+
+{"lat":1.2418647737655879,"lon":103.84091752438542,"type":"WALK","title":"Cove Drive","nodeId":380},
+
+{"lat":1.2420363948161926,"lon":103.84083705811497,"type":"WALK","title":"Cove Drive","nodeId":381},
+
+{"lat":1.244841324781139,"lon":103.84014907150265,"type":"WALK","title":"Cove Way","nodeId":382},
+
+{"lat":1.2468739585893987,"lon":103.84006324081418,"type":"WALK","title":"Cove Way","nodeId":383},
+
+{"lat":1.2463322804426724,"lon":103.83992376596041,"type":"WALK","title":"Cove Way","nodeId":384},
+
+{"lat":1.2470831213460909,"lon":103.84002032546994,"type":"WALK","title":"Cove Way","nodeId":385},
+
+{"lat":1.2486277073421959,"lon":103.84129705696103,"type":"WALK","title":"Cove Way","nodeId":386},
+
+{"lat":1.2479412247655368,"lon":103.84057286035,"type":"WALK","title":"Sentosa Cove","nodeId":387},
+
+{"lat":1.2482201083479956,"lon":103.84118976860043,"type":"WALK","title":"Cove Way","nodeId":388},
+
+{"lat":1.24759262025687,"lon":103.84052994502554,"type":"WALK","title":"Sentosa Cove","nodeId":389},
+
+{"lat":1.2451255718196079,"lon":103.84190860061642,"type":"WALK","title":"Sentosa Cove","nodeId":390},
+
+{"lat":1.2453079189602128,"lon":103.84221973686215,"type":"WALK","title":"Sentosa Cove","nodeId":391},
+
+{"lat":1.2447984195651243,"lon":103.84212317733761,"type":"WALK","title":"Sentosa Cove","nodeId":392},
+
+{"lat":1.2446267986940938,"lon":103.84195151596066,"type":"WALK","title":"Sentosa Cove","nodeId":393},
+
+{"lat":1.2432162892372567,"lon":103.84161355762478,"type":"WALK","title":"Sentosa Cove","nodeId":394},
+
+{"lat":1.2425995263101826,"lon":103.8416886594772,"type":"WALK","title":"Sentosa Cove","nodeId":395},
+
+{"lat":1.2434254522841937,"lon":103.84237530498501,"type":"WALK","title":"Sentosa Cove","nodeId":396},
+
+{"lat":1.243969812446988,"lon":103.84306999706723,"type":"WALK","title":"Ocean Drive","nodeId":397},
+
+{"lat":1.2451416612737132,"lon":103.84412946968075,"type":"WALK","title":"Ocean Drive","nodeId":398},
+
+{"lat":1.2465307171065274,"lon":103.8449126747131,"type":"WALK","title":"Ocean Drive","nodeId":399},
+
+{"lat":1.2473888207298089,"lon":103.84574952392575,"type":"WALK","title":"Ocean Drive","nodeId":400},
+
+{"lat":1.2483380975370444,"lon":103.84630205898282,"type":"WALK","title":"Ocean Drive","nodeId":401},
+
+{"lat":1.2490406694166303,"lon":103.84681704311367,"type":"WALK","title":"Ocean Drive","nodeId":402},
+
+{"lat":1.2494321788558254,"lon":103.84705307750699,"type":"WALK","title":"Ocean Drive","nodeId":403},
+
+{"lat":1.24931418971119,"lon":103.8469109204201,"type":"WALK","title":"Ocean Drive","nodeId":404},
+
+{"lat":1.2511805627623407,"lon":103.84812596111294,"type":"WALK","title":"Ocean Drive","nodeId":405},
+
+{"lat":1.2520493911414814,"lon":103.84830298690793,"type":"WALK","title":"Ocean Drive","nodeId":406},
+
+{"lat":1.2531220183728582,"lon":103.84574952392575,"type":"WALK","title":"Ocean Drive","nodeId":407},
+
+{"lat":1.2521352013361522,"lon":103.84302439956662,"type":"WALK","title":"Ocean Drive","nodeId":408},
+
+{"lat":1.25211911192487,"lon":103.84277763633725,"type":"WALK","title":"Ocean Drive","nodeId":409},
+
+{"lat":1.2517490554380919,"lon":103.84264889030453,"type":"WALK","title":"Ocean Drive","nodeId":410},
+
+{"lat":1.2516846977828238,"lon":103.84390952854153,"type":"WALK","title":"Ocean Drive","nodeId":411},
+
+{"lat":1.2511322945106833,"lon":103.84392964510914,"type":"WALK","title":"Ocean Drive","nodeId":412},
+
+{"lat":1.2520815699648726,"lon":103.84478258757588,"type":"WALK","title":"Ocean Drive","nodeId":413},
+
+{"lat":1.2525052577684794,"lon":103.84456398754116,"type":"WALK","title":"Ocean Drive","nodeId":414},
+
+{"lat":1.25225855348605,"lon":103.84372177391049,"type":"WALK","title":"Ocean Drive","nodeId":415},
+
+{"lat":1.2487242439368562,"lon":103.84137215881344,"type":"WALK","title":"Cove Way","nodeId":416},
+
+{"lat":1.2489655854079229,"lon":103.84120049743649,"type":"WALK","title":"Cove Way","nodeId":417},
+
+{"lat":1.2495877099867172,"lon":103.84171548156735,"type":"WALK","title":"Cove Way","nodeId":418},
+
+{"lat":1.2502205607001535,"lon":103.84220900802609,"type":"WALK","title":"Cove Way","nodeId":419},
+
+{"lat":1.2509284952157773,"lon":103.84258451728817,"type":"WALK","title":"Cove Way","nodeId":420},
+
+{"lat":1.2515238036378915,"lon":103.84275617866513,"type":"WALK","title":"Cove Way","nodeId":421},
+
+{"lat":1.2516471558165667,"lon":103.84287956027981,"type":"WALK","title":"Cove Way","nodeId":422},
+
+{"lat":1.2538728571734592,"lon":103.82382380633351,"type":"WALK","title":"Universal Studios Singapore","nodeId":423},
+
+{"lat":1.2542965446873304,"lon":103.82364678053853,"type":"WALK","title":"Universal Studios Singapore","nodeId":424},
+
+{"lat":1.2388131348742204,"lon":103.83727508454319,"type":"WALK","title":"Cove Way","nodeId":425},
+
+{"lat":1.2396605149677085,"lon":103.83825677250366,"type":"WALK","title":"Cove Way","nodeId":426},
+
+{"lat":1.2402906865380974,"lon":103.83937793592486,"type":"WALK","title":"Cove Way","nodeId":427},
+
+{"lat":1.2411997420784382,"lon":103.84041326901604,"type":"WALK","title":"Cove Way","nodeId":428},
+
+{"lat":1.2416341579470169,"lon":103.84080487153778,"type":"WALK","title":"Cove Way","nodeId":429},
+
+{"lat":1.2422348316420906,"lon":103.84085181026455,"type":"WALK","title":"Cove Drive","nodeId":430},
+
+{"lat":1.2418486842915597,"lon":103.8405353096008,"type":"WALK","title":"Cove Drive","nodeId":431},
+
+{"lat":1.2436131626967946,"lon":103.83985939292904,"type":"WALK","title":"Cove Way","nodeId":432},
+
+{"lat":1.243141205014918,"lon":103.83973869347187,"type":"WALK","title":"Cove Way","nodeId":433},
+
+{"lat":1.2422133790129832,"lon":103.83929612903592,"type":"WALK","title":"Cove Drive","nodeId":434},
+
+{"lat":1.2420578474468009,"lon":103.83916201858517,"type":"WALK","title":"Cove Way","nodeId":435},
+
+{"lat":1.2424976263344709,"lon":103.83937123088833,"type":"WALK","title":"Cove Drive","nodeId":436},
+
+{"lat":1.2422401947993831,"lon":103.83953752784726,"type":"WALK","title":"Cove Way","nodeId":437},
+
+{"lat":1.2416234316443651,"lon":103.84024563102719,"type":"WALK","title":"Cove Drive","nodeId":438},
+
+{"lat":1.2418486842915597,"lon":103.84021344451901,"type":"WALK","title":"Cove Drive","nodeId":439},
+
+{"lat":1.2416287948028917,"lon":103.84045484333035,"type":"WALK","title":"Cove Way","nodeId":440},
+
+{"lat":1.2497056991143429,"lon":103.84135874776837,"type":"WALK","title":"Ocean Drive","nodeId":441},
+
+{"lat":1.2490755298485203,"lon":103.84097385077473,"type":"WALK","title":"Ocean Drive","nodeId":442},
+
+{"lat":1.2494134078566288,"lon":103.84094702868458,"type":"WALK","title":"Ocean Drive","nodeId":443},
+
+{"lat":1.2489950826972911,"lon":103.84044813780781,"type":"WALK","title":"Ocean Drive","nodeId":444},
+
+{"lat":1.2493705027151407,"lon":103.84020673899647,"type":"WALK","title":"Ocean Drive","nodeId":445},
+
+{"lat":1.2488020095243817,"lon":103.84005117087361,"type":"WALK","title":"Ocean Drive","nodeId":446},
+
+{"lat":1.2484775392991334,"lon":103.83985402851101,"type":"WALK","title":"Ocean Drive","nodeId":447},
+
+{"lat":1.2486451375578165,"lon":103.83989895550599,"type":"WALK","title":"New Node","nodeId":448},
+
+{"lat":1.2453186452218736,"lon":103.84177449018807,"type":"WALK","title":"Ocean Way","nodeId":449},
+
+{"lat":1.2462250176231562,"lon":103.84168061285016,"type":"WALK","title":"Ocean Drive","nodeId":450},
+
+{"lat":1.2473834575830121,"lon":103.84209099082943,"type":"WALK","title":"Sentosa Cove","nodeId":451},
+
+{"lat":1.2468846848292918,"lon":103.84196626806511,"type":"WALK","title":"Ocean Drive","nodeId":452},
+
+{"lat":1.2489736301123937,"lon":103.84668293262848,"type":"WALK","title":"Ocean Drive","nodeId":453},
+
+{"lat":1.2496145255965581,"lon":103.84708794604285,"type":"WALK","title":"Ocean Drive","nodeId":454},
+
+{"lat":1.2496627939776894,"lon":103.84419786601063,"type":"WALK","title":"Ocean Drive","nodeId":455},
+
+{"lat":1.2493490501488052,"lon":103.84450363784686,"type":"WALK","title":"Paradise Island","nodeId":456},
+
+{"lat":1.2498505039455343,"lon":103.84432527093884,"type":"WALK","title":"Ocean Drive","nodeId":457},
+
+{"lat":1.2499470404953237,"lon":103.84368288187977,"type":"WALK","title":"Ocean Drive","nodeId":458},
+
+{"lat":1.2495340785633653,"lon":103.84461629061696,"type":"WALK","title":"Ocean Drive","nodeId":459},
+
+{"lat":1.2498317329486404,"lon":103.84462098449149,"type":"WALK","title":"New Node","nodeId":460},
+
+{"lat":1.2525803416758923,"lon":103.84739640026089,"type":"WALK","title":"Ocean Drive","nodeId":461},
+
+{"lat":1.2531541971830056,"lon":103.84635570316311,"type":"WALK","title":"Ocean Drive","nodeId":462},
+
+{"lat":1.2528860404196192,"lon":103.84513261585232,"type":"WALK","title":"Ocean Drive","nodeId":463},
+
+{"lat":1.2505584383934632,"lon":103.847794708209,"type":"WALK","title":"Cove Drive","nodeId":464},
+
+{"lat":1.2467881482211711,"lon":103.84521308205456,"type":"WALK","title":"Cove Drive","nodeId":465},
+
+{"lat":1.2448185313748552,"lon":103.84389477624791,"type":"WALK","title":"Ocean Drive","nodeId":466},
+
+{"lat":1.2449539509699381,"lon":103.84242224364277,"type":"WALK","title":"Ocean Drive","nodeId":467},
+
+{"lat":1.2441333886276695,"lon":103.84288760690686,"type":"WALK","title":"Ocean Drive","nodeId":468},
+
+{"lat":1.2441494780878049,"lon":103.84314241676327,"type":"WALK","title":"Sentosa Cove","nodeId":469},
+
+{"lat":1.2441957352795845,"lon":103.84322489452575,"type":"WALK","title":"Ocean Drive","nodeId":470},
+
+{"lat":1.2450612138186517,"lon":103.84006860527165,"type":"WALK","title":"ONE° 15 Marina Club","nodeId":471},
+
+{"lat":1.2472440157630751,"lon":103.83904400138852,"type":"WALK","title":"Cove Drive","nodeId":472},
+
+{"lat":1.2471313896722243,"lon":103.83989426164624,"type":"WALK","title":"Cove Way","nodeId":473},
+
+{"lat":1.2510397803591264,"lon":103.81905617980954,"type":"WALK","title":"Beach View","nodeId":474},
+
+{"lat":1.2575412379290847,"lon":103.81128582029339,"type":"BUS","title":"Siloso Point Bus Stop","nodeId":475},
+
+{"lat":1.2480833481449924,"lon":103.82729324369427,"type":"BUS","title":"Allanbrooke Bus Stop (Inbound)","nodeId":476},
+
+{"lat":1.2481825663323383,"lon":103.82667365341183,"type":"BUS","title":"Allanbrooke Bus Stop (Outbound)","nodeId":477},
+
+{"lat":1.2479331800709006,"lon":103.82761779098507,"type":"BUS","title":"Ficus (Sentosa Office) Bus Stop","nodeId":478},
+
+{"lat":1.2564096180989814,"lon":103.82152247099873,"type":"BUS","title":"RWS Bus Stop","nodeId":479},
+
+{"lat":1.252709056940756,"lon":103.82266106872555,"type":"BUS","title":"Ranger Station Bus Stop (Outbound)","nodeId":480},
+
+{"lat":1.2533150912278521,"lon":103.82106783657071,"type":"BUS","title":"Artillery Bus Stop","nodeId":481},
+
+{"lat":1.2536744212256743,"lon":103.82035973339077,"type":"BUS","title":"Merlion Bus Stop","nodeId":482},
+
+{"lat":1.2542080529970956,"lon":103.81459030179974,"type":"TRAM","title":"Beach Tram Stop (Siloso Beach Resort)","nodeId":483},
+
+{"lat":1.2462464702196181,"lon":103.82568123607632,"type":"TRAM","title":"Beach Tram Stop (The Sentosa Resort \u0026 Spa)","nodeId":484},
+
+{"lat":1.2476730674932872,"lon":103.82406118183133,"type":"TRAM","title":"Beach Tram Stop (Palawan Beach)","nodeId":485},
+
+{"lat":1.2485579864660747,"lon":103.82261278896328,"type":"TRAM","title":"Beach Tram Stop (Southernmost Point)","nodeId":486},
+
+{"lat":1.2567340873421253,"lon":103.81171497373578,"type":"TRAM","title":"Beach Tram Stop (Siloso Point)","nodeId":487},
+
+{"lat":1.2556185565522608,"lon":103.81296488313672,"type":"TRAM","title":"Beach Tram Stop (Costa Sands Resort)","nodeId":488},
+
+{"lat":1.2527760961387238,"lon":103.81585630445477,"type":"TRAM","title":"Beach Tram Stop (Siloso Beach)","nodeId":489},
+
+{"lat":1.2553798972589487,"lon":103.82110002307888,"type":"RAIL","title":"Waterfront Station","nodeId":490},
+
+{"lat":1.2547591148402237,"lon":103.81671327023503,"type":"POI","title":"Skyline Luge Sentosa","nodeId":491},
+
+{"lat":1.2479586550149859,"lon":103.821391042757,"type":"POI","title":"Southernmost Point of Continental Asia","nodeId":492},
+
+{"lat":1.24749876523632,"lon":103.82498386173245,"type":"POI","title":"Taxi Point (Palawan)","nodeId":493},
+
+{"lat":1.2651246870463664,"lon":103.8225430515289,"type":"POI","title":"Information Counter @ Sentosa Station @ Vivocity","nodeId":494},
+
+{"lat":1.2592480522209437,"lon":103.80802023081776,"type":"POI","title":"Combat Skirmish LIVE ","nodeId":495},
+
+{"lat":1.2588994492361185,"lon":103.8076661792278,"type":"POI","title":"Fort Siloso","nodeId":496},
+
+{"lat":1.2593848118410529,"lon":103.80851107506749,"type":"WALK","title":"Fort Siloso History Passport","nodeId":497},
+
+{"lat":1.2593405660796986,"lon":103.80906226902005,"type":"WALK","title":"The QuarterMaster Store","nodeId":498},
+
+{"lat":1.257917327110246,"lon":103.80916553406712,"type":"POI","title":"Casserole @ Dine On 3","nodeId":499},
+
+{"lat":1.2576672713868682,"lon":103.80906763343808,"type":"POI","title":"Shangri-La\u0027s Rasa Sentosa Resort","nodeId":500},
+
+{"lat":1.2574239195454804,"lon":103.80904215245243,"type":"POI","title":"Rasa Spa","nodeId":501},
+
+{"lat":1.258088276723188,"lon":103.80931707887646,"type":"WALK","title":"Default Node","nodeId":502},
+
+{"lat":1.2578315171053014,"lon":103.80951422123906,"type":"WALK","title":"Barnacles Restaurant","nodeId":503},
+
+{"lat":1.2577316288949529,"lon":103.80941632061001,"type":"POI","title":"Silver Shell Café @ Dine On 3","nodeId":504},
+
+{"lat":1.2574882770572802,"lon":103.80939083962437,"type":"POI","title":"8 Noodles @ Dine On 3","nodeId":505},
+
+{"lat":1.2572536402818151,"lon":103.80935865311619,"type":"POI","title":"The Bubble Bar @ Dine On 3","nodeId":506},
+
+{"lat":1.2576270479433291,"lon":103.81111952333447,"type":"POI","title":"Taxi Point (Siloso Point)","nodeId":507},
+
+{"lat":1.2584998965274554,"lon":103.81124692826268,"type":"POI","title":"Cool Stop","nodeId":508},
+
+{"lat":1.2585012373032707,"lon":103.81152990131375,"type":"WALK","title":"Dolphin Suite","nodeId":509},
+
+{"lat":1.2584268239588041,"lon":103.811665352869,"type":"POI","title":"Fish Reflexology","nodeId":510},
+
+{"lat":1.2582357626529084,"lon":103.81157818107602,"type":"POI","title":"Underwater World Retail/Souvenir shop","nodeId":511},
+
+{"lat":1.258544812685731,"lon":103.81175118355748,"type":"POI","title":"Hot Dog King","nodeId":512},
+
+{"lat":1.2586433600882041,"lon":103.81145479946133,"type":"POI","title":"Munch-It!","nodeId":513},
+
+{"lat":1.2567649253259883,"lon":103.81382319002148,"type":"WALK","title":"Imbiah Hill Road","nodeId":514},
+
+{"lat":1.2568936403873727,"lon":103.81428587107655,"type":"POI","title":"MegaZip Adventure Park","nodeId":515},
+
+{"lat":1.257100120781558,"lon":103.81370383172032,"type":"POI","title":"Mount Imbiah","nodeId":516},
+
+{"lat":1.2564981097147532,"lon":103.81235333948132,"type":"WALK","title":"Siloso Walk","nodeId":517},
+
+{"lat":1.2565155398809098,"lon":103.81232919960019,"type":"POI","title":"Toilet (Siloso Beach 4)","nodeId":518},
+
+{"lat":1.2558371040882193,"lon":103.81241234807965,"type":"POI","title":"Trapizza","nodeId":519},
+
+{"lat":1.2557224671939196,"lon":103.81243581740853,"type":"POI","title":"The Flying Trapeze","nodeId":520},
+
+{"lat":1.2549642546175071,"lon":103.81350400714871,"type":"POI","title":"Billabong (Wavehouse)","nodeId":521},
+
+{"lat":1.2548395618120953,"lon":103.81343695192334,"type":"POI","title":"Locker (Siloso Beach 2)","nodeId":522},
+
+{"lat":1.2552055955140764,"lon":103.81416383056637,"type":"POI","title":"Costa Sands Resort Sentosa","nodeId":523},
+
+{"lat":1.2552511821231904,"lon":103.81392779617306,"type":"POI","title":"Chinatown Coffee Shop","nodeId":524},
+
+{"lat":1.2553906235195411,"lon":103.81366762189862,"type":"POI","title":"Toilet (Siloso Beach 3)","nodeId":525},
+
+{"lat":1.255425483867223,"lon":103.81370785503384,"type":"POI","title":"First Aid (Siloso Beach 3)","nodeId":526},
+
+{"lat":1.2553115173450109,"lon":103.81378563909527,"type":"POI","title":"Nursing Room (Siloso Beach 1)","nodeId":527},
+
+{"lat":1.2553772156937688,"lon":103.81381514339444,"type":"POI","title":"Locker (Siloso Beach 3)","nodeId":528},
+
+{"lat":1.2544386676988339,"lon":103.8138634231567,"type":"POI","title":"Wave House Restaurant (Sentosa)","nodeId":529},
+
+{"lat":1.2542938631210563,"lon":103.81398144035336,"type":"POI","title":"First Aid (Siloso Beach 2)","nodeId":530},
+
+{"lat":1.2544896174557623,"lon":103.81436499624249,"type":"WALK","title":"Siloso Walk","nodeId":531},
+
+{"lat":1.2546893941271253,"lon":103.81371456055638,"type":"POI","title":"Wave House Sentosa","nodeId":532},
+
+{"lat":1.2538514046390563,"lon":103.8153037693977,"type":"POI","title":"Toilet (Siloso Beach 2)","nodeId":534},
+
+{"lat":1.2538701756067145,"lon":103.81523671417233,"type":"POI","title":"Siloso Beach Resort","nodeId":535},
+
+{"lat":1.253805818003582,"lon":103.81525817184445,"type":"POI","title":"Siloso Beach Café","nodeId":536},
+
+{"lat":1.2535631361942807,"lon":103.8157543805122,"type":"POI","title":"Locker (Siloso Beach 1)","nodeId":537},
+
+{"lat":1.2529048113941346,"lon":103.81614866523739,"type":"POI","title":"Gogreen Cycle \u0026 Island Explorer","nodeId":539},
+
+{"lat":1.2527492804597122,"lon":103.81633641986844,"type":"POI","title":"First Aid (Siloso Beach 1)","nodeId":540},
+
+{"lat":1.2522625758416504,"lon":103.81627338795659,"type":"WALK","title":"Bikini Bar","nodeId":541},
+
+{"lat":1.2522585534860753,"lon":103.81634446649548,"type":"WALK","title":"Siloso Walk","nodeId":542},
+
+{"lat":1.2521982181990408,"lon":103.81635385422703,"type":"WALK","title":"Sand Bar","nodeId":543},
+
+{"lat":1.2520051452617467,"lon":103.81641822724339,"type":"WALK","title":"COASTES","nodeId":544},
+
+{"lat":1.2515720718821572,"lon":103.81689163713452,"type":"POI","title":"Toilet (Siloso Beach 1)","nodeId":545},
+
+{"lat":1.2510531882097069,"lon":103.81692784695622,"type":"POI","title":"Wings of Time","nodeId":546},
+
+{"lat":1.2511671549147119,"lon":103.81761315135952,"type":"POI","title":"ATM (DBS, OCBC) - Beach Station","nodeId":547},
+
+{"lat":1.2512261494437678,"lon":103.81774189739224,"type":"POI","title":"The Coffee Bean \u0026 Tea Leaf (Beach Station)","nodeId":548},
+
+{"lat":1.2512154231657968,"lon":103.81779017715451,"type":"WALK","title":"Beach Station","nodeId":549},
+
+{"lat":1.2512315125827023,"lon":103.81791355876919,"type":"POI","title":"7-Eleven (Beach Station)","nodeId":550},
+
+{"lat":1.2510196685862263,"lon":103.81763192682263,"type":"POI","title":"Toilet (Beach Station)","nodeId":551},
+
+{"lat":1.2520185531045793,"lon":103.81759571700093,"type":"POI","title":"iFly Singapore","nodeId":553},
+
+{"lat":1.2516230216951527,"lon":103.81733956604,"type":"POI","title":"Fun Shop Beach Plaza","nodeId":554},
+
+{"lat":1.2517141950417221,"lon":103.81720545558926,"type":"POI","title":"Tastes of Asia","nodeId":555},
+
+{"lat":1.2514333006749359,"lon":103.81782906918522,"type":"WALK","title":"Kuroya (Beach Station)","nodeId":556},
+
+{"lat":1.2502540803311149,"lon":103.82176789312359,"type":"POI","title":"Nursing Room (Palawan Beach)","nodeId":557},
+
+{"lat":1.2502849183910438,"lon":103.82185372381207,"type":"POI","title":"Toilet (Palawan Beach 2)","nodeId":558},
+
+{"lat":1.25066301979483,"lon":103.82254841594693,"type":"POI","title":"Shutters","nodeId":559},
+
+{"lat":1.2507488300348559,"lon":103.8226342466354,"type":"POI","title":"Amara Sanctuary Resort Sentosa","nodeId":560},
+
+{"lat":1.250874193427157,"lon":103.82274287610051,"type":"WALK","title":"KABA Japanese Fine Dining","nodeId":561},
+
+{"lat":1.2507810088740734,"lon":103.82282736568448,"type":"POI","title":"ATM (DBS) - Amara Sanctuary Resort","nodeId":562},
+
+{"lat":1.2506791092150433,"lon":103.82272544174191,"type":"POI","title":"Si Bon","nodeId":563},
+
+{"lat":1.250823913992585,"lon":103.82249477176663,"type":"POI","title":"Thanying Restaurant (Amara Sanctuary @ Sentosa)","nodeId":564},
+
+{"lat":1.2511,"lon":103.81896000000006,"type":"POI","title":"Beach Station Car Park","nodeId":565},
+
+{"lat":1.2514353118539321,"lon":103.81820860176083,"type":"POI","title":"Prayer Room @ Beach Station Car Park","nodeId":566},
+
+{"lat":1.2509539701291259,"lon":103.82008883028027,"type":"POI","title":"Animal \u0026 Bird Encounters","nodeId":567},
+
+{"lat":1.2502822368208897,"lon":103.82115366725918,"type":"POI","title":"7-Eleven (Palawan Beach)","nodeId":568},
+
+{"lat":1.2501789963571137,"lon":103.82131459980008,"type":"WALK","title":"Island Life Hut","nodeId":569},
+
+{"lat":1.2503331866586043,"lon":103.82137092618939,"type":"WALK","title":"Siloso Walk","nodeId":570},
+
+{"lat":1.2504163153391112,"lon":103.82084253101345,"type":"WALK","title":"Silk Road of the Sea","nodeId":571},
+
+{"lat":1.250296315063506,"lon":103.82098334698674,"type":"WALK","title":"Braise Restaurant (Sentosa)","nodeId":572},
+
+{"lat":1.25004223625856,"lon":103.81915139822957,"type":"POI","title":"Port of Lost Wonder","nodeId":573},
+
+{"lat":1.2488315068153908,"lon":103.82284614114758,"type":"POI","title":"Toilet (Palawan Beach 1)","nodeId":574},
+
+{"lat":1.2489468144054441,"lon":103.82267716197964,"type":"POI","title":"Locker (Palawan Beach)","nodeId":575},
+
+{"lat":1.2488288252436846,"lon":103.82274689941403,"type":"POI","title":"First Aid (Palawan Beach 2)","nodeId":576},
+
+{"lat":1.2493168712873108,"lon":103.82194760112759,"type":"WALK","title":"Samundar Indian Fusion Cuisine \u0026 Bar","nodeId":577},
+
+{"lat":1.2491807815321943,"lon":103.82198112874028,"type":"POI","title":"Movenpick of Switerland (Palawan Beach)","nodeId":578},
+
+{"lat":1.2520024636930682,"lon":103.81745490102765,"type":"POI","title":"Bora Bora Margarita Bar","nodeId":579},
+
+{"lat":1.2553270201444819,"lon":103.8172621172547,"type":"POI","title":"Pezzo","nodeId":580},
+
+{"lat":1.249567598205942,"lon":103.82153051762577,"type":"WALK","title":"Makansutra Seefood Seeshore","nodeId":581},
+
+{"lat":1.2493731842865545,"lon":103.82198783426281,"type":"WALK","title":"Siloso Walk","nodeId":582},
+
+{"lat":1.2490621219901539,"lon":103.82519575624463,"type":"WALK","title":"The Yurt Mongolian Spa","nodeId":583},
+
+{"lat":1.2497345260027313,"lon":103.82500666050908,"type":"POI","title":"Auriga Spa","nodeId":584},
+
+{"lat":1.2496172072691643,"lon":103.82417383460995,"type":"POI","title":"Capella Singapore","nodeId":585},
+
+{"lat":1.2493684915345673,"lon":103.82375138669011,"type":"POI","title":"Cassia","nodeId":586},
+
+{"lat":1.2492471504295479,"lon":103.82407191066739,"type":"POI","title":"The Knolls (Capella Singapore)","nodeId":587},
+
+{"lat":1.249060781207316,"lon":103.82462578682896,"type":"POI","title":"Bob\u0027s Bar (Capella Singapore)","nodeId":588},
+
+{"lat":1.2492203347144688,"lon":103.82666292457577,"type":"POI","title":"Spa Luna","nodeId":589},
+
+{"lat":1.2492981002873127,"lon":103.82723423509594,"type":"WALK","title":"Gateway Avenue","nodeId":590},
+
+{"lat":1.2501736332156603,"lon":103.82701429395672,"type":"WALK","title":"35 Artillery- Private Dining on Sentosa","nodeId":591},
+
+{"lat":1.2493892737146302,"lon":103.82748099832531,"type":"WALK","title":"Gateway Avenue","nodeId":592},
+
+{"lat":1.248533852316239,"lon":103.82689895896908,"type":"POI","title":"So SPA","nodeId":593},
+
+{"lat":1.2484158631360196,"lon":103.82699015407559,"type":"POI","title":"The Garden @ Sentosa","nodeId":594},
+
+{"lat":1.2486813387842364,"lon":103.82732811241147,"type":"WALK","title":"Allanbrooke Road","nodeId":595},
+
+{"lat":1.2477883751339876,"lon":103.82754805355069,"type":"POI","title":"Suburbia","nodeId":596},
+
+{"lat":1.2439443374664023,"lon":103.82921236424443,"type":"POI","title":"Sentosa Golf Club Singapore","nodeId":597},
+
+{"lat":1.2447474696201997,"lon":103.82885160713192,"type":"POI","title":"Taxi Point (Serapong)","nodeId":598},
+
+{"lat":1.2444900383044812,"lon":103.8290822771072,"type":"POI","title":"ATM (DBS) - Serapong","nodeId":599},
+
+{"lat":1.2441876905531808,"lon":103.82956105141636,"type":"POI","title":"The Golfer\u0027s Terrace/The Deli","nodeId":600},
+
+{"lat":1.2433905917775094,"lon":103.82899644641873,"type":"POI","title":"First Aid (Tanjong Beach)","nodeId":602},
+
+{"lat":1.2437479119469643,"lon":103.82943766980168,"type":"POI","title":"Sushi Kondo","nodeId":603},
+
+{"lat":1.2440743939397385,"lon":103.82889988689419,"type":"WALK","title":"Bukit Manis Road","nodeId":604},
+
+{"lat":1.2445463514070803,"lon":103.82867458133694,"type":"WALK","title":"Bukit Manis Road","nodeId":605},
+
+{"lat":1.2433329378646179,"lon":103.82808583645817,"type":"POI","title":"Tanjong Beach Club","nodeId":606},
+
+{"lat":1.2431626576838839,"lon":103.82827493219372,"type":"POI","title":"Toilet (Tanjong Beach)","nodeId":607},
+
+{"lat":1.2438947282906394,"lon":103.82701697616574,"type":"POI","title":"Car Park (Tanjong Beach)","nodeId":608},
+
+{"lat":1.246637980074728,"lon":103.82657172946927,"type":"POI","title":"Sofitel Singapore Sentosa Resort \u0026 Spa","nodeId":609},
+
+{"lat":1.2456511606025951,"lon":103.82770362167355,"type":"WALK","title":"Bukit Manis Road","nodeId":610},
+
+{"lat":1.2462276991978014,"lon":103.82745685844418,"type":"POI","title":"The Cliff","nodeId":611},
+
+{"lat":1.2459219996792406,"lon":103.82793965606686,"type":"POI","title":"The Pavilion","nodeId":612},
+
+{"lat":1.2464690408978936,"lon":103.82714035778042,"type":"POI","title":"The Terrace @ Sentosa","nodeId":613},
+
+{"lat":1.2472332894666187,"lon":103.83978965549466,"type":"POI","title":"eM by the Marina","nodeId":614},
+
+{"lat":1.2475792124333622,"lon":103.83973601131436,"type":"POI","title":"7-Eleven (Sentosa Cove)","nodeId":615},
+
+{"lat":1.2478688223220351,"lon":103.83976283340451,"type":"POI","title":"Car Park (Sentosa Cove)","nodeId":616},
+
+{"lat":1.2479573142261939,"lon":103.83941414623257,"type":"WALK","title":"Ocean Drive","nodeId":617},
+
+{"lat":1.2486505007051476,"lon":103.84074988632199,"type":"WALK","title":"Dryclyn Express","nodeId":618},
+
+{"lat":1.2523222407350205,"lon":103.82504018812176,"type":"POI","title":"Starz Restaurants","nodeId":619},
+
+{"lat":1.2526607887199752,"lon":103.8255699244022,"type":"WALK","title":"Marine Life Park","nodeId":620},
+
+{"lat":1.2524046989563946,"lon":103.82547470580653,"type":"WALK","title":"Gateway Avenue","nodeId":621},
+
+{"lat":1.2528927443391018,"lon":103.82586630849835,"type":"WALK","title":"Gateway Avenue","nodeId":622},
+
+{"lat":1.254238891013133,"lon":103.8231022921085,"type":"POI","title":"Universal Studios Singapore®","nodeId":623},
+
+{"lat":1.2546384443714054,"lon":103.82351401119229,"type":"POI","title":"Toilet (RWS1)","nodeId":624},
+
+{"lat":1.2584811255927857,"lon":103.82038521437642,"type":"WALK","title":"Maritime Experiential Museum \u0026 Aquarium™","nodeId":625},
+
+{"lat":1.2576176624733482,"lon":103.82078352241513,"type":"WALK","title":"Frangipani Creations","nodeId":626},
+
+{"lat":1.2573696178915885,"lon":103.82044288187024,"type":"WALK","title":"Resorts World Sentosa","nodeId":627},
+
+{"lat":1.2573582212479548,"lon":103.82016259102818,"type":"POI","title":"RamenPlay (Resorts World Sentosa)","nodeId":628},
+
+{"lat":1.2576404557580712,"lon":103.819319036293,"type":"POI","title":"Hard Rock Hotel® Singapore","nodeId":629},
+
+{"lat":1.2572134168319276,"lon":103.81957786946293,"type":"POI","title":"Rock Pool Bar (Hard Rock Hotel)","nodeId":630},
+
+{"lat":1.2561535287116987,"lon":103.82081973223683,"type":"POI","title":"Lake of Dreams","nodeId":631},
+
+{"lat":1.2561642549668841,"lon":103.82104369668957,"type":"POI","title":"Money Changer (RWS)","nodeId":632},
+
+{"lat":1.2558585566061469,"lon":103.82113489179608,"type":"POI","title":"Waterfront Station (Information Counter)","nodeId":633},
+
+{"lat":1.25569498115282,"lon":103.82101955680844,"type":"POI","title":"7-Eleven (Waterfront Station)","nodeId":634},
+
+{"lat":1.2557593387092112,"lon":103.82073524265286,"type":"POI","title":"Toilet (RWS2)","nodeId":635},
+
+{"lat":1.2559054839883916,"lon":103.82069098620411,"type":"WALK","title":"Resorts World Sentosa","nodeId":636},
+
+{"lat":1.2561910706108586,"lon":103.82045629291531,"type":"POI","title":"Resorts World™ Gift Shop","nodeId":637},
+
+{"lat":1.2564485007789947,"lon":103.8204187419891,"type":"POI","title":"The Galleria, Luxury Fashion","nodeId":638},
+
+{"lat":1.2566295063507829,"lon":103.8200941946983,"type":"WALK","title":"Resorts World Sentosa","nodeId":639},
+
+{"lat":1.2546813494297027,"lon":103.81944375901219,"type":"WALK","title":"Sentosa Feng Shui Tour","nodeId":640},
+
+{"lat":1.255441908453665,"lon":103.81955909399983,"type":"POI","title":"Hotaru (Crockfords Tower)","nodeId":641},
+
+{"lat":1.2553266011495563,"lon":103.81908434300419,"type":"POI","title":"Feng Shui Inn (Crockfords Tower)","nodeId":642},
+
+{"lat":1.2551978860134163,"lon":103.81936597495076,"type":"POI","title":"Crockfords Tower","nodeId":643},
+
+{"lat":1.2554553162793609,"lon":103.81938206820485,"type":"POI","title":"Crockfords Grill (Crockfords Tower)","nodeId":644},
+
+{"lat":1.2538809018737824,"lon":103.81921711235043,"type":"POI","title":"Information Counter @ Merlion Plaza","nodeId":646},
+
+{"lat":1.2539385555607403,"lon":103.81920504240986,"type":"POI","title":"Merlion Plaza","nodeId":647},
+
+{"lat":1.2540397846969245,"lon":103.81914335160252,"type":"POI","title":"KFC","nodeId":648},
+
+{"lat":1.254040455090627,"lon":103.81902131109234,"type":"POI","title":"Money Changer (Imbiah)","nodeId":649},
+
+{"lat":1.2541517400994768,"lon":103.81920638351437,"type":"POI","title":"Merlion Cafe","nodeId":650},
+
+{"lat":1.254332745835318,"lon":103.81926136879918,"type":"POI","title":"Sentosa Souvenir Shop (Merlion Plaza)","nodeId":651},
+
+{"lat":1.2546022432306949,"lon":103.81956311731335,"type":"WALK","title":"Siloso Road","nodeId":652},
+
+{"lat":1.2538379968054092,"lon":103.81953897743222,"type":"POI","title":"7-Eleven (Imbiah Station)","nodeId":653},
+
+{"lat":1.2545834722685454,"lon":103.81750586299893,"type":"POI","title":"Subway","nodeId":655},
+
+{"lat":1.2546756510993746,"lon":103.81755950717923,"type":"WALK","title":"New Zealand Natural Ice Cream (Imbiah Lookout)","nodeId":656},
+
+{"lat":1.2546451482865624,"lon":103.81770166425702,"type":"WALK","title":"Siloso Road","nodeId":657},
+
+{"lat":1.2543314050493883,"lon":103.81758632926938,"type":"POI","title":"Information Counter @ Imbiah Lookout","nodeId":658},
+
+{"lat":1.2544762096250413,"lon":103.81755950717923,"type":"POI","title":"Starbucks Coffee (Sentosa)","nodeId":659},
+
+{"lat":1.2545834722685454,"lon":103.81760510473248,"type":"POI","title":"Straits Express","nodeId":660},
+
+{"lat":1.2544319637857762,"lon":103.81738918690678,"type":"POI","title":"Tiger Sky Tower","nodeId":662},
+
+{"lat":1.2545445895608358,"lon":103.81734224824902,"type":"WALK","title":"Luge Dragon","nodeId":663},
+
+{"lat":1.2542352038567377,"lon":103.8177700605869,"type":"WALK","title":"Tastes of Singapore (Imbiah Lookout)","nodeId":664},
+
+{"lat":1.2541343099195548,"lon":103.81743612556454,"type":"WALK","title":"Chng Kee\u0027s Spice of Life","nodeId":665},
+
+{"lat":1.2535430244411383,"lon":103.81789210109707,"type":"POI","title":"Car Park (Imbiah)","nodeId":667},
+
+{"lat":1.2536543094733461,"lon":103.8175541427612,"type":"POI","title":"Images of Singapore Shop","nodeId":668},
+
+{"lat":1.254008276293838,"lon":103.81755280165669,"type":"POI","title":"Images of Singapore","nodeId":669},
+
+{"lat":1.2540055947247271,"lon":103.81803694038388,"type":"POI","title":"The Arches Restaurant","nodeId":670},
+
+{"lat":1.2547768802113104,"lon":103.81934719948765,"type":"WALK","title":"Casino Royale Bar (Crockfords Tower)","nodeId":671},
+
+{"lat":1.2547416846622608,"lon":103.81978708176609,"type":"POI","title":"Festive Walk™","nodeId":672},
+
+{"lat":1.2556990035001254,"lon":103.81774189739224,"type":"POI","title":"ATM (ANZ) - Imbiah Lookout","nodeId":673},
+
+{"lat":1.2561803443557751,"lon":103.81731140284535,"type":"POI","title":"Sentosa Nature Discovery","nodeId":674},
+
+{"lat":1.2561883890462513,"lon":103.81744148998257,"type":"POI","title":"Toilet (Imbiah)","nodeId":675},
+
+{"lat":1.256378780111022,"lon":103.81740662126538,"type":"WALK","title":"Sentosa Cineblast","nodeId":676},
+
+{"lat":1.2556976627201626,"lon":103.81616341738697,"type":"POI","title":"Sentosa 4D AdventureLand","nodeId":677},
+
+{"lat":1.2553115173475171,"lon":103.81716656355854,"type":"POI","title":"Butterfly Park \u0026 Insect Kingdom","nodeId":678},
+
+{"lat":1.2553698413918175,"lon":103.81681050031182,"type":"WALK","title":"Sentosa 4D Magix","nodeId":680},
+
+{"lat":1.2575821317645197,"lon":103.82301310865876,"type":"POI","title":"Crane Dance","nodeId":681},
+
+{"lat":1.2561910706109349,"lon":103.82380637197491,"type":"WALK","title":"Gateway Avenue","nodeId":682},
+
+{"lat":1.2573541989012347,"lon":103.82368701367375,"type":"WALK","title":"Venezia Gelateria (Sentosa Boardwalk)","nodeId":683},
+
+{"lat":1.2564163220093549,"lon":103.82325383691784,"type":"POI","title":"Sentosa Visitor Centre Information Counter","nodeId":684},
+
+{"lat":1.2579250366046468,"lon":103.82369237809178,"type":"POI","title":"Queens (Sentosa Boardwalk)","nodeId":685},
+
+{"lat":1.2584238072010985,"lon":103.82368701367375,"type":"WALK","title":"Ooh! Crepes (Sentosa Boardwalk)","nodeId":686},
+
+{"lat":1.2585025780889585,"lon":103.82368969588276,"type":"POI","title":"Sentosa Boardwalk","nodeId":687},
+
+{"lat":1.2591049238830758,"lon":103.82366555600163,"type":"POI","title":"The Wine Company @ Sentosa Boardwalk","nodeId":688},
+
+{"lat":1.2581955392184276,"lon":103.81125631599423,"type":"WALK","title":"Taxi Point (Siloso Point)","nodeId":689},
+
+{"lat":1.2584543099723091,"lon":103.81134348778721,"type":"POI","title":"Underwater World Singapore","nodeId":690},
+
+{"lat":1.2607752008986259,"lon":103.82368299036023,"type":"WALK","title":"The Wine Company @ Sentosa Boardwalk","nodeId":691},
+
+{"lat":1.2607966533758934,"lon":103.82358106641766,"type":"WALK","title":"The Wine Company @ Sentosa Boardwalk","nodeId":692},
+
+{"lat":1.2630974305368452,"lon":103.82364007501599,"type":"WALK","title":"The Wine Company @ Sentosa Boardwalk","nodeId":693},
+
+{"lat":1.2632422346257204,"lon":103.82351132898327,"type":"WALK","title":"The Wine Company @ Sentosa Boardwalk","nodeId":694},
+
+{"lat":1.2661517170720897,"lon":103.82442712783814,"type":"RAIL","title":"Sentosa Station","nodeId":695},
+
+{"lat":1.2526259283329817,"lon":103.81596627502438,"type":"WALK","title":"New Zealand Natural Ice Cream (Siloso Beach)","nodeId":696},
+
+{"lat":1.2524060397446903,"lon":103.81614330081936,"type":"WALK","title":"Billabong (Siloso Beach East)","nodeId":697},
+
+{"lat":1.2527425765399878,"lon":103.81617280511853,"type":"WALK","title":"Luge Dragon","nodeId":698},
+
+{"lat":1.2512838031866649,"lon":103.81779285936352,"type":"RAIL","title":"Beach Station","nodeId":699},
+
+{"lat":1.2513253675121481,"lon":103.81848218708035,"type":"TRAM","title":"Beach Tram Stop (Beach Station)","nodeId":700},
+
+{"lat":1.2506174331036581,"lon":103.81790014772412,"type":"WALK","title":"Siloso Walk","nodeId":701},
+
+{"lat":1.2516297256177775,"lon":103.81828772692677,"type":"WALK","title":"Beach Station","nodeId":702},
+
+{"lat":1.251639111109399,"lon":103.81796183853146,"type":"POI","title":"Taxi Point (Beach Station)","nodeId":703},
+
+{"lat":1.2516189993415752,"lon":103.81871688036915,"type":"WALK","title":"Beach Station","nodeId":704},
+
+{"lat":1.2509124057970908,"lon":103.81892475156781,"type":"WALK","title":"Siloso Walk","nodeId":706},
+
+{"lat":1.2509070426903564,"lon":103.81926539210929,"type":"WALK","title":"Siloso Walk","nodeId":707},
+
+{"lat":1.2513495016364502,"lon":103.81809192566868,"type":"POI","title":"Häagen Dazs","nodeId":708},
+
+{"lat":1.2510974341060948,"lon":103.81813484101292,"type":"WALK","title":"7-Eleven (Beach Station)","nodeId":709},
+
+{"lat":1.2510826854732615,"lon":103.81842183737751,"type":"WALK","title":"7-Eleven (Beach Station)","nodeId":710},
+
+{"lat":1.2510585513465296,"lon":103.81781431703564,"type":"POI","title":"Nursing Room (Beach Station)","nodeId":711},
+
+{"lat":1.2511604509910945,"lon":103.81954836516377,"type":"WALK","title":"Beach View","nodeId":712},
+
+{"lat":1.2512060376725342,"lon":103.81929221420285,"type":"WALK","title":"Beach View","nodeId":713},
+
+{"lat":1.2510934117515504,"lon":103.81977501182553,"type":"WALK","title":"Beach View","nodeId":714},
+
+{"lat":1.2508587744007611,"lon":103.81968649892804,"type":"WALK","title":"Siloso Walk","nodeId":715},
+
+{"lat":1.25076223790555,"lon":103.82017734319777,"type":"WALK","title":"Siloso Walk","nodeId":716},
+
+{"lat":1.2516136362061519,"lon":103.81941157250401,"type":"WALK","title":"Sentosa Adventures","nodeId":717},
+
+{"lat":1.251416540868997,"lon":103.81793769865033,"type":"POI","title":"Beach Station (Information Counter)","nodeId":718},
+
+{"lat":1.2512060376727376,"lon":103.81875040798184,"type":"BUS","title":"Bus Stop (Beach Station)","nodeId":719},
+
+{"lat":1.2507300590450101,"lon":103.81979646949765,"type":"TRAM","title":"Beach Tram Stop (Port Of Lost Wonder)","nodeId":720},
+
+{"lat":1.2494884918525373,"lon":103.8219315078735,"type":"POI","title":"First Aid (Palawan Beach 1)","nodeId":721},
+
+{"lat":1.2500435770413854,"lon":103.82121267585751,"type":"TRAM","title":"Beach Tram Stop (Animal \u0026 Bird Encounters)","nodeId":722},
+
+{"lat":1.2539103991078597,"lon":103.81945851116177,"type":"RAIL","title":"Imbiah Station","nodeId":723},
+
+{"lat":1.2541628013364063,"lon":103.8193552461147,"type":"WALK","title":"Siloso Road","nodeId":724},
+
+{"lat":1.2470723950513138,"lon":103.82483634023663,"type":"WALK","title":"Siloso Walk","nodeId":726},
+
+{"lat":1.2473620049957992,"lon":103.82507773904797,"type":"BUS","title":"Bus Stop (Palawan)","nodeId":727},
+
+{"lat":1.2472869209391673,"lon":103.82478806047436,"type":"WALK","title":"Cove Drive","nodeId":728},
+
+{"lat":1.2517524069452211,"lon":103.82297354607579,"type":"WALK","title":"KABA Japanese Fine Dining","nodeId":729},
+
+{"lat":1.2508084945116877,"lon":103.82409470944401,"type":"WALK","title":"Capella Singapore","nodeId":730},
+
+{"lat":1.2516344179096022,"lon":103.82402497200962,"type":"WALK","title":"Capella Singapore","nodeId":731},
+
+{"lat":1.2525937495162696,"lon":103.82264765768048,"type":"BUS","title":"Bus Stop (Ranger Station Inbound)","nodeId":732},
+
+{"lat":1.24643,"lon":103.82529999999997,"type":"POI","title":"Car Park (Palawan Beach)","nodeId":733},
+
+{"lat":1.2504149745564133,"lon":103.81794172196385,"type":"POI","title":"Gogreen Segway® Eco Adventure","nodeId":734},
+
+{"lat":1.2506442488044374,"lon":103.81864580183026,"type":"WALK","title":"Siloso Walk","nodeId":735},
+
+{"lat":1.2557003442825692,"lon":103.81651612787243,"type":"WALK","title":"Imbiah Lookout","nodeId":736},
+
+{"lat":1.2557137521069799,"lon":103.81692114143368,"type":"WALK","title":"Imbiah Lookout","nodeId":737},
+
+{"lat":1.2557191152367164,"lon":103.81736907033917,"type":"WALK","title":"Imbiah Lookout","nodeId":738},
+
+{"lat":1.2559497298052276,"lon":103.81737309365269,"type":"WALK","title":"Imbiah Lookout","nodeId":740},
+
+{"lat":1.2558746459944654,"lon":103.81688090829846,"type":"WALK","title":"Imbiah Lookout","nodeId":742},
+
+{"lat":1.2559872717122371,"lon":103.81681251196858,"type":"POI","title":"Nature Walk","nodeId":743},
+
+{"lat":1.25549922690834,"lon":103.81696808009144,"type":"WALK","title":"Imbiah Lookout","nodeId":744},
+
+{"lat":1.2553463776933034,"lon":103.81699087886807,"type":"POI","title":"Taxi Point (Imbiah)","nodeId":745},
+
+{"lat":1.2555340872543173,"lon":103.81652953891751,"type":"WALK","title":"Imbiah Lookout","nodeId":746},
+
+{"lat":1.2553651486526796,"lon":103.81652283339497,"type":"WALK","title":"Sentosa CineBlast","nodeId":747},
+
+{"lat":1.255280008952802,"lon":103.81714577643868,"type":"BUS","title":"Bus Stop (Imbiah Lookout)","nodeId":748},
+
+{"lat":1.2532051469650096,"lon":103.81932574181553,"type":"WALK","title":"Beach View","nodeId":749},
+
+{"lat":1.2529745321546362,"lon":103.81929221420285,"type":"POI","title":"Mövenpick Heritage Hotel Sentosa","nodeId":750},
+
+{"lat":1.2443130542608532,"lon":103.82812472848889,"type":"WALK","title":"Cove Drive","nodeId":751},
+
+{"lat":1.2453990925259351,"lon":103.82754805355069,"type":"BUS","title":"Bus Stop (The Sentosa Resort \u0026 Spa)","nodeId":752},
+
+{"lat":1.2441038912842828,"lon":103.82833930521008,"type":"WALK","title":"Cove Drive","nodeId":753},
+
+{"lat":1.2447018828266772,"lon":103.82878186969754,"type":"BUS","title":"Bus Stop (Sentosa Golf Club)","nodeId":754},
+
+{"lat":1.2479894930996345,"lon":103.82379027872082,"type":"WALK","title":"Siloso Walk","nodeId":755},
+
+{"lat":1.2536771027926226,"lon":103.81867262392041,"type":"WALK","title":"Merlion Plaza","nodeId":756},
+
+{"lat":1.2538366560243903,"lon":103.81875174908635,"type":"POI","title":"Sentosa Merlion","nodeId":757},
+
+{"lat":1.2534585550786166,"lon":103.81819384961125,"type":"POI","title":"Merlion Walk","nodeId":758},
+
+{"lat":1.254948165223527,"lon":103.82029536037442,"type":"POI","title":"Hotel Michael™","nodeId":759},
+
+{"lat":1.2551077183753612,"lon":103.82043215303418,"type":"POI","title":"Palio (Hotel Michael)","nodeId":760},
+
+{"lat":1.2553426905411445,"lon":103.81970393328663,"type":"POI","title":"The Dining Room (Crockfords Tower)","nodeId":761},
+
+{"lat":1.2563921879318578,"lon":103.81930294303891,"type":"POI","title":"Festive Hotel™","nodeId":762},
+
+{"lat":1.2564002326243442,"lon":103.81903472213742,"type":"WALK","title":"Spa Republic","nodeId":763},
+
+{"lat":1.2565128583170404,"lon":103.81880941658017,"type":"POI","title":"Festive Lounge (Festive Hotel)","nodeId":764},
+
+{"lat":1.2564914058044943,"lon":103.81860556869503,"type":"POI","title":"Osia (FestiveWalk)","nodeId":765},
+
+{"lat":1.2563244784334795,"lon":103.81874638466832,"type":"POI","title":"Boulangerie (Festive Hotel)","nodeId":766},
+
+{"lat":1.2561428024514498,"lon":103.8188523319244,"type":"POI","title":"Fiesta (Festive Hotel)","nodeId":767},
+
+{"lat":1.2558102884406952,"lon":103.81825956373211,"type":"WALK","title":"Sentosa Cineblast","nodeId":768},
+
+{"lat":1.2582759860868547,"lon":103.81857874660489,"type":"WALK","title":"Beach Villas™","nodeId":769},
+
+{"lat":1.2591394489858798,"lon":103.81812277107235,"type":"POI","title":"Beach Villas","nodeId":770},
+
+{"lat":1.2590321865295069,"lon":103.81634178428647,"type":"POI","title":"Equarius Hotel™","nodeId":771},
+
+{"lat":1.2586460416500127,"lon":103.81581607131955,"type":"POI","title":"ESPA","nodeId":772},
+
+{"lat":1.2442031096208603,"lon":103.8274783161163,"type":"TRAM","title":"Beach Tram Stop (Tanjong Beach)","nodeId":773},
+
+{"lat":1.25148626166937,"lon":103.81759169368741,"type":"WALK","title":"Beach Station Tram Stop (Siloso Beach)","nodeId":774},
+
+{"lat":1.2576699529497835,"lon":103.81098004846569,"type":"WALK","title":"Siloso Point","nodeId":775},
+
+{"lat":1.2539640304417488,"lon":103.82025244503018,"type":"WALK","title":"Artillery Avenue","nodeId":776},
+
+{"lat":1.2491908374275818,"lon":103.82757755784985,"type":"WALK","title":"Bukit Manis Road","nodeId":777},
+
+{"lat":1.2442781937655425,"lon":103.82870676784512,"type":"WALK","title":"Bukit Manis Road","nodeId":778},
+
+{"lat":1.2472976472332444,"lon":103.82784846096035,"type":"WALK","title":"Bukit Manis Road","nodeId":779},
+
+{"lat":1.2494724024250854,"lon":103.82170620231625,"type":"WALK","title":"Palawan Beach","nodeId":780},
+
+{"lat":1.2513531887942069,"lon":103.81770099370476,"type":"POI","title":"Stickhouse Gelato Icecreams on Stick","nodeId":782},
+
+{"lat":1.2521164303567132,"lon":103.81758331178423,"type":"WALK","title":"Skyloft Rooftop Bar \u0026 Restaurant","nodeId":783},
+
+{"lat":1.2519826871225028,"lon":103.81760611056086,"type":"POI","title":"McDonalds (Sentosa)","nodeId":784},
+
+{"lat":1.2462558557304249,"lon":103.82768082289692,"type":"WALK","title":"Baifuting","nodeId":785},
+
+{"lat":1.256610735403213,"lon":103.81915005712506,"type":"POI","title":"Festive Pool \u0026 Deck (Level 3)","nodeId":786},
+
+{"lat":1.2565892828914809,"lon":103.81896498470303,"type":"POI","title":"Salon Royale","nodeId":787},
+
+{"lat":1.2555208470267798,"lon":103.81946991055008,"type":"POI","title":"Kunio Tokuoka","nodeId":788},
+
+{"lat":1.2551784446644978,"lon":103.82049451439377,"type":"POI","title":"Chinois","nodeId":789},
+
+{"lat":1.2552424670380828,"lon":103.82056626348492,"type":"POI","title":"Michael’s Lounge","nodeId":790},
+
+{"lat":1.2574400089239775,"lon":103.81916883258816,"type":"POI","title":"Rang Mahal Pavilion","nodeId":791},
+
+{"lat":1.2578771036729917,"lon":103.81938072710034,"type":"POI","title":"The Rock Bar","nodeId":792},
+
+{"lat":1.254535204079672,"lon":103.81372931270596,"type":"POI","title":"Wave House Beach Bar","nodeId":793},
+
+{"lat":1.2565571041238004,"lon":103.8230124381065,"type":"POI","title":"Resorts World™ Gift Shop","nodeId":794},
+
+{"lat":1.2545348688840168,"lon":103.81751256852147,"type":"POI","title":"Hotdog Express","nodeId":795},
+
+{"lat":1.2490131833067162,"lon":103.8220937815189,"type":"POI","title":"Bora Bora Beach Bar","nodeId":796},
+
+{"lat":1.2588243655078217,"lon":103.81149369149205,"type":"WALK","title":"The Boxing Crab (Opening soon)","nodeId":798},
+
+{"lat":1.2554516291246829,"lon":103.82129045991894,"type":"POI","title":"Sentosa Souvenir Shop (Resorts World™ Sentosa)","nodeId":799},
+
+{"lat":1.2572087240963392,"lon":103.82350864677426,"type":"WALK","title":"Sentosa Souvenir Shop (Sentosa Boardwalk)","nodeId":800},
+
+{"lat":1.2479911690459407,"lon":103.82795709042546,"type":"WALK","title":"Sentosa Office","nodeId":801},
+
+{"lat":1.2592788901726193,"lon":103.81094249753949,"type":"POI","title":"Car Park (Underwater World Singapore)","nodeId":802},
+
+{"lat":1.2539318516415756,"lon":103.81458761959073,"type":"WALK","title":"Emerald Pavillion","nodeId":803},
+
+{"lat":1.2554630257793722,"lon":103.81290051012036,"type":"WALK","title":"Sapphire Pavillion","nodeId":804},
+
+{"lat":1.24696274873431,"lon":103.83928540028171,"type":"BUS","title":"Bus Stop (Cove Arrival Plaza)","nodeId":805},
+
+{"lat":1.2490382860110223,"lon":103.82850291995999,"type":"BUS","title":"Bus Stop (Serapong Inbound)","nodeId":806},
+
+{"lat":1.2488237603068904,"lon":103.82833125858303,"type":"BUS","title":"Bus Stop (Serapong Outbound)","nodeId":807},
+
+{"lat":1.2482502706329652,"lon":103.84143099188805,"type":"POI","title":"Brussels Sprouts – Belgian Beer \u0026 Mussels","nodeId":808},
+
+{"lat":1.2479056885431787,"lon":103.84180516004562,"type":"POI","title":"Paradiso Restaurant \u0026 Bar","nodeId":809},
+
+{"lat":1.2478681465229033,"lon":103.84201571345329,"type":"POI","title":"Little Provence","nodeId":810},
+
+{"lat":1.2479700462910137,"lon":103.84188428521156,"type":"POI","title":"The Straits Wine Company","nodeId":811},
+
+{"lat":1.2480545158326262,"lon":103.84177297353745,"type":"POI","title":"Jasons The Gourmet Grocer","nodeId":812},
+
+{"lat":1.2475718327010843,"lon":103.84227052330971,"type":"POI","title":"Museo","nodeId":813},
+
+{"lat":1.2473506029028703,"lon":103.84243816137314,"type":"POI","title":"Easyclean Laundry","nodeId":814},
+
+{"lat":1.2472393176033814,"lon":103.84232819080353,"type":"POI","title":"Kith","nodeId":815},
+
+{"lat":1.2469792049573478,"lon":103.84224772453308,"type":"POI","title":"Oyster Bar \u0026 Grill","nodeId":816},
+
+{"lat":1.2467794277014244,"lon":103.84222626686096,"type":"POI","title":"Saint Pierre","nodeId":817},
+
+{"lat":1.2464831137570522,"lon":103.84234696626663,"type":"WALK","title":"Away Spa","nodeId":818},
+
+{"lat":1.2459655698647127,"lon":103.83951187133789,"type":"POI","title":"One 15 Marina Club","nodeId":819},
+
+{"lat":1.2591810077806456,"lon":103.8184779882431,"type":"POI","title":"Adventure Cove Waterpark™","nodeId":821},
+
+{"lat":1.2594652532641542,"lon":103.81758749485016,"type":"POI","title":"S.E.A. Aquarium™","nodeId":822},
+
+{"lat":1.2534444714424919,"lon":103.81497234106064,"type":"POI","title":"Mambo Beach Bar","nodeId":823},
+
+{"lat":1.2546511764040762,"lon":103.81364464759827,"type":"POI","title":"SeaBreeze Water-Sports @ Wave House","nodeId":824},
+
+{"lat":1.2561260372678418,"lon":103.81931215524674,"type":"WALK","title":"Light Seeker Show","nodeId":825},
+
+{"lat":1.2498216716525568,"lon":103.84184807538986,"type":"POI","title":"Away Spa","nodeId":826},
+
+{"lat":1.2469252382840041,"lon":103.84218469262123,"type":"POI","title":"Blue Lotus - Chinese Eating House","nodeId":827},
+
+{"lat":1.2468018858836567,"lon":103.84214982390404,"type":"POI","title":"Solepomodoro Trattoria-Pizzeria","nodeId":828},
+
+{"lat":1.2475151844666446,"lon":103.84225845336914,"type":"POI","title":"Picotin Express","nodeId":829},
+
+{"lat":1.2481024489443389,"lon":103.84164556860924,"type":"POI","title":"Sabio by the Sea, Tapas and Grill","nodeId":830},
+
+{"lat":1.2471840101485863,"lon":103.84227454662323,"type":"POI","title":"Note di Sicilia ","nodeId":831},
+
+{"lat":1.2471183115946951,"lon":103.84225711226463,"type":"POI","title":"Mykonos On the Bay ","nodeId":832},
+
+{"lat":1.2470619985472087,"lon":103.84223029017448,"type":"POI","title":"Quayside Fish Bar \u0026 Bistro","nodeId":833},
+
+{"lat":1.2471357418234452,"lon":103.84237110614777,"type":"POI","title":"Earl of Hindh ","nodeId":834},
+
+{"lat":1.2473127256779575,"lon":103.84242877364159,"type":"POI","title":"Petpawroni","nodeId":835},
+
+{"lat":1.2523634644422059,"lon":103.81625577807427,"type":"WALK","title":"Flame","nodeId":836},
+
+{"lat":1.2522830173917874,"lon":103.81619811058044,"type":"POI","title":"Makan2","nodeId":837},
+
+{"lat":1.249747,"lon":103.84190100000001,"type":"POI","title":"W Singapore - Sentosa Cove","nodeId":838},
+
+{"lat":1.2523420118956659,"lon":103.81610691547394,"type":"POI","title":"Bikini Bar","nodeId":839},
+
+{"lat":1.2524398891378001,"lon":103.81605327129364,"type":"POI","title":"Coastes","nodeId":840},
+
+{"lat":1.2524962020699724,"lon":103.81595268845558,"type":"POI","title":"Sand Bar","nodeId":841},
+
+{"lat":1.252584693818106,"lon":103.81587088108063,"type":"POI","title":"Flame","nodeId":842},
+
+{"lat":1.2466919508054419,"lon":103.84247868469049,"type":"POI","title":"Skirt","nodeId":843},
+
+{"lat":1.2467241296943907,"lon":103.84245320370485,"type":"POI","title":"The Kitchen Table","nodeId":844},
+
+{"lat":1.2466959731665892,"lon":103.84243711045076,"type":"POI","title":"WOOBAR","nodeId":845},
+
+{"lat":1.2473161677015865,"lon":103.84233399388313,"type":"POI","title":"Miska Café","nodeId":846},
+
+{"lat":1.2474197710135488,"lon":103.84244535276127,"type":"POI","title":"Quayside Isle Preparatory School","nodeId":847},
+
+{"lat":1.2474685921309126,"lon":103.84240463376045,"type":"POI","title":"Hera Beauty Salon","nodeId":848},
+
+{"lat":1.2477555813495471,"lon":103.84194700248145,"type":"POI","title":"Cove Stadium","nodeId":849},
+
+{"lat":1.2555929052267751,"lon":103.81761644047549,"type":"POI","title":"Singapore Cable Car Station @ Sentosa","nodeId":850},
+
+{"lat":1.2537515369437053,"lon":103.81878683068862,"type":"POI","title":"Sentosa Merlion Retail Outlet","nodeId":851},
+
+{"lat":1.2560626647915363,"lon":103.82074980489347,"type":"POI","title":"Chili’s Grill \u0026 Bar","nodeId":852},
+
+{"lat":1.2568903354215417,"lon":103.82238579265982,"type":"POI","title":"Astons Specialities","nodeId":853},
+
+{"lat":1.2568400091135579,"lon":103.8229038086414,"type":"WALK","title":"Voyage de la Vie™","nodeId":854},
+
+{"lat":1.2568544694798456,"lon":103.82185928836066,"type":"POI","title":"Malaysian Food Street","nodeId":855},
+
+{"lat":1.2571416850116755,"lon":103.82254841594693,"type":"POI","title":"Toilet (RWS3)","nodeId":856},
+
+{"lat":1.2564163220093549,"lon":103.82325383691784,"type":"POI","title":"Trick Eye Museum","nodeId":857},
+
+{"lat":1.2566734580814341,"lon":103.82000818402673,"type":"POI","title":"Imperial Treasure La Mian Xiao Long Bao","nodeId":858},
+
+{"lat":1.2566668212334631,"lon":103.82020160003469,"type":"POI","title":"Bali Thai","nodeId":859},
+
+{"lat":1.2564845474874147,"lon":103.81989919874195,"type":"POI","title":"Putien","nodeId":860},
+
+{"lat":1.256326011175871,"lon":103.81993172883608,"type":"POI","title":"Starbucks (Resorts World Sentosa)","nodeId":861},
+
+{"lat":1.2561473687120015,"lon":103.81999107605748,"type":"POI","title":"Krispy Kreme","nodeId":862},
+
+{"lat":1.2569795194988878,"lon":103.82021014847942,"type":"POI","title":"Matsuri Japanese Gourmet Alley","nodeId":863},
+
+{"lat":1.2572985250685496,"lon":103.82068555456158,"type":"POI","title":"Din Tai Fung","nodeId":864},
+
+{"lat":1.2577355362624969,"lon":103.82028816931165,"type":"POI","title":"COCA Restaurant","nodeId":865},
+
+{"lat":1.2593602387592773,"lon":103.817512578682,"type":"POI","title":"Ocean Restaurant by Cat Cora","nodeId":866},
+
+{"lat":1.2552117151418099,"lon":103.81748974106972,"type":"POI","title":"Smoothie King","nodeId":867},
+
+{"lat":1.2514833521863669,"lon":103.81830805274399,"type":"POI","title":"Gong Cha","nodeId":868},
+
+{"lat":1.25723934,"lon":103.82132941999998,"type":"POI","title":"Insadong Korea Town","nodeId":869},
+
+{"lat":1.2475280895379017,"lon":103.84234093129635,"type":"POI","title":"The Good Sole","nodeId":870},
+
+{"lat":1.2521211176953584,"lon":103.82222503423691,"type":"POI","title":"Aileron Wellness","nodeId":871},
+
+{"lat":1.2459592011244614,"lon":103.83977875113487,"type":"POI","title":"Crystal Jade Premium","nodeId":872},
+
+{"lat":1.2541108408067316,"lon":103.81772696971893,"type":"POI","title":"Madame Tussauds Singapore","nodeId":873},
+
+{"lat":1.254517,"lon":103.817836,"type":"POI","title":"Joe \u0026 Dough","nodeId":874},
+
+{"lat":1.250796,"lon":103.820017,"type":"POI","title":"Kidzania","nodeId":875},
+
+{"lat":1.247706,"lon":103.841469,"type":"POI","title":"\u0026Made Burger Bistro L’Entrecôte Express","nodeId":877},
+
+{"lat":1.2651273631956721,"lon":103.82309675216675,"type":"MRT","title":"Harbourfront MRT","nodeId":878},
+
+{"lat":1.2665003190843396,"lon":103.8228178024292,"type":"BUSINT","title":"Harbourfront Bus Interchange","nodeId":879},
+
+{"lat":1.2556225789021489,"lon":103.81765740780827,"type":"CABLE","title":"Singapore Cable Car (Imbiah Station)","nodeId":880},
+
+{"lat":1.2657494839228018,"lon":103.82262468338013,"type":"CABLE","title":"Singapore Cable Car (Harbourfront Station)","nodeId":881},
+
+{"lat":1.2715577245344618,"lon":103.81899833679199,"type":"CABLE","title":"Singapore Cable Car (Faber Peak Station)","nodeId":882},
+
+{"lat":1.27195119915,"lon":103.818773042297,"type":"POI","title":"Faber Peak Retail","nodeId":883},
+
+{"lat":1.27191902058,"lon":103.818333160019,"type":"POI","title":"Faber Bistro","nodeId":884},
+
+{"lat":1.27192974675891,"lon":103.817861091232,"type":"POI","title":"Spuds \u0026 Aprons","nodeId":885},
+
+{"lat":1.254031,"lon":103.814763,"type":"POI","title":"Mambo Beach Club","nodeId":886},
+
+{"lat":1.247533,"lon":103.84234,"type":"POI","title":"Healthcare Medical @ Sentosa","nodeId":887},
+
+{"lat":1.248662,"lon":103.828093,"type":"POI","title":"EtonHouse International Pre-School","nodeId":888},
+
+{"lat":1.250481,"lon":103.819982,"type":"POI","title":"Port Belly (Port of Lost Wonder)","nodeId":889},
+
+{"lat":1.254573,"lon":103.818844,"type":"POI","title":"Beaver\u0027s Café","nodeId":891},
+
+{"lat":1.254595,"lon":103.818729,"type":"POI","title":"Samundar Indian Fusion Restaurant","nodeId":892},
+
+{"lat":1.256181,"lon":103.820088,"type":"POI","title":"NamNam Noodle Bar","nodeId":893},
+
+{"lat":1.257724,"lon":103.822339,"type":"POI","title":"CJ\u0027s Bar at Quaich, RWS","nodeId":894},
+
+{"lat":1.256123,"lon":103.821095,"type":"POI","title":"Gong Cha (Resorts World Sentosa)","nodeId":895},
+
+{"lat":1.257092,"lon":103.821403,"type":"POI","title":"Slappy Cakes","nodeId":896},
+
+{"lat":1.256088,"lon":103.821016,"type":"POI","title":"Hot Star","nodeId":897},
+
+{"lat":1.25544190844,"lon":103.820109,"type":"POI","title":"Syun","nodeId":898},
+
+{"lat":1.257075,"lon":103.819978,"type":"POI","title":"Cedele Bakery Café","nodeId":899},
+
+{"lat":1.2592010077806457,"lon":103.81857798824311,"type":"POI","title":"Dolphin Island","nodeId":900},
+
+{"lat":1.25004223625856,"lon":103.81915139822957,"type":"POI","title":"WIFI Area @ Port of Lost Wonder","nodeId":901},
+
+{"lat":1.251495,"lon":103.817381,"type":"POI","title":"WIFI Area @ Taste of Asia","nodeId":902},
+
+{"lat":1.251353,"lon":103.817694,"type":"POI","title":"WIFI Area @ The Coffee Bean \u0026 Tea Leaf","nodeId":903},
+
+{"lat":1.2512838031866649,"lon":103.81779285936352,"type":"POI","title":"WIFI Area @ Beach Station","nodeId":904},
+
+{"lat":1.2516230216951527,"lon":103.81733956604,"type":"POI","title":"WIFI Area @ IslandLife","nodeId":905},
+
+{"lat":1.251439,"lon":103.818359,"type":"POI","title":"WIFI Area @ Gong Cha","nodeId":906},
+
+{"lat":1.254848,"lon":103.817619,"type":"POI","title":"WIFI Area @ Tiger Sky Tower","nodeId":907},
+
+{"lat":1.255125,"lon":103.817409,"type":"POI","title":"WIFI Area @ Skyline Luge Sentosa","nodeId":908},
+
+{"lat":1.255362,"lon":103.817298,"type":"POI","title":"WIFI Area @ Butterfly Park \u0026 Insect Kingdom","nodeId":909},
+
+{"lat":1.2557225789021489,"lon":103.81775740780827,"type":"POI","title":"WIFI Area @ Singapore Cable Car","nodeId":910},
+
+{"lat":1.2733717774,"lon":103.818669063546,"type":"POI","title":"WIFI Area @ Faber Bistro","nodeId":911},
+
+{"lat":1.27192974675891,"lon":103.817861091232,"type":"POI","title":"WIFI Area @ Spuds \u0026 Aprons","nodeId":912},
+
+{"lat":1.271377,"lon":103.819037,"type":"POI","title":"WIFI Area @ Faber Peak Retail","nodeId":913},
+
+{"lat":1.2714577245344618,"lon":103.81889833679199,"type":"POI","title":"WIFI Area @ Mount Faber Cable Car Station","nodeId":914},
+
+{"lat":1.2651246870463664,"lon":103.8225430515289,"type":"POI","title":"WIFI Area @ Harbourfront Station","nodeId":915},
+
+{"lat":1.2658494839228018,"lon":103.82272468338013,"type":"POI","title":"WIFI Area @ Harbourfront Cable Car Station","nodeId":916},
+
+{"lat":1.257212,"lon":103.811241,"type":"CABLEWAY","title":"Sentosa Line (Siloso Point Station)","nodeId":917},
+
+{"lat":1.2549159810295276,"lon":103.81691694259644,"type":"CABLEWAY","title":"Sentosa Line (Imbiah Lookout Station)","nodeId":918},
+
+{"lat":1.253971,"lon":103.819111,"type":"CABLEWAY","title":"Sentosa Line (Merlion Station)","nodeId":919},
+
+{"lat":1.2580963160045457,"lon":103.81079077720642,"type":"POI","title":"Fort Siloso Skywalk","nodeId":920}]

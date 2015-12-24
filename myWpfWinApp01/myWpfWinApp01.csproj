@@ -1,0 +1,1872 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{3DEA2723-B547-43B5-8C85-ED2670054714}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>myWpfWinApp01</RootNamespace>
+    <AssemblyName>MySentosaMapPlotter</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>C:\my2359media\works\Published\MySentosaMapPlotter\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>2</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Martz90-Circle-Maps.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>AC63B246448AB5BA7F939D3B3AA4B55881462810</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>myWpfWinApp01_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Maps.MapControl.WPF">
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Bing Maps WPF Control\V1\Libraries\Microsoft.Maps.MapControl.WPF.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Page Include="MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Models\Detail.cs" />
+    <Compile Include="Models\NodeData.cs" />
+    <Compile Include="Models\PathData.cs" />
+    <Compile Include="MyGlobal.cs" />
+    <Compile Include="MyTileSource.cs" />
+    <Compile Include="MyTileSystem.cs" />
+    <Compile Include="Properties\Annotations.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="bin\Debug\tiles2\bluerminator.rb" />
+    <None Include="myWpfWinApp01_TemporaryKey.pfx" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <AppDesigner Include="Properties\" />
+    <None Include="tiles2\bluerminator.rb" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\Debug\output\Android\" />
+    <Folder Include="bin\Debug\output\iOS\" />
+    <Folder Include="bin\Debug\tiles2\16\51663\" />
+    <Folder Include="bin\Debug\tiles2\16\51664\" />
+    <Folder Include="bin\Debug\tiles2\16\51673\" />
+    <Folder Include="bin\Debug\tiles2\16\51674\" />
+    <Folder Include="bin\Debug\tiles2\17\103326\" />
+    <Folder Include="bin\Debug\tiles2\17\103327\" />
+    <Folder Include="bin\Debug\tiles2\17\103328\" />
+    <Folder Include="bin\Debug\tiles2\17\103329\" />
+    <Folder Include="bin\Debug\tiles2\17\103347\" />
+    <Folder Include="bin\Debug\tiles2\17\103348\" />
+    <Folder Include="bin\Debug\tiles2\17\103349\" />
+    <Folder Include="bin\Debug\tiles2\17\103350\" />
+    <Folder Include="bin\Debug\tiles2\18\206653\" />
+    <Folder Include="bin\Debug\tiles2\18\206654\" />
+    <Folder Include="bin\Debug\tiles2\18\206655\" />
+    <Folder Include="bin\Debug\tiles2\18\206656\" />
+    <Folder Include="bin\Debug\tiles2\18\206657\" />
+    <Folder Include="bin\Debug\tiles2\18\206658\" />
+    <Folder Include="bin\Debug\tiles2\18\206659\" />
+    <Folder Include="bin\Debug\tiles2\18\206660\" />
+    <Folder Include="bin\Debug\tiles2\18\206693\" />
+    <Folder Include="bin\Debug\tiles2\18\206694\" />
+    <Folder Include="bin\Debug\tiles2\18\206695\" />
+    <Folder Include="bin\Debug\tiles2\18\206696\" />
+    <Folder Include="bin\Debug\tiles2\18\206697\" />
+    <Folder Include="bin\Debug\tiles2\18\206698\" />
+    <Folder Include="bin\Debug\tiles2\18\206699\" />
+    <Folder Include="bin\Debug\tiles2\18\206700\" />
+    <Folder Include="bin\Debug\tiles2\18\206701\" />
+    <Folder Include="tiles2\16\51663\" />
+    <Folder Include="tiles2\16\51664\" />
+    <Folder Include="tiles2\16\51673\" />
+    <Folder Include="tiles2\16\51674\" />
+    <Folder Include="tiles2\17\103326\" />
+    <Folder Include="tiles2\17\103327\" />
+    <Folder Include="tiles2\17\103328\" />
+    <Folder Include="tiles2\17\103329\" />
+    <Folder Include="tiles2\17\103347\" />
+    <Folder Include="tiles2\17\103348\" />
+    <Folder Include="tiles2\17\103349\" />
+    <Folder Include="tiles2\17\103350\" />
+    <Folder Include="tiles2\18\206653\" />
+    <Folder Include="tiles2\18\206654\" />
+    <Folder Include="tiles2\18\206655\" />
+    <Folder Include="tiles2\18\206656\" />
+    <Folder Include="tiles2\18\206657\" />
+    <Folder Include="tiles2\18\206658\" />
+    <Folder Include="tiles2\18\206659\" />
+    <Folder Include="tiles2\18\206660\" />
+    <Folder Include="tiles2\18\206693\" />
+    <Folder Include="tiles2\18\206694\" />
+    <Folder Include="tiles2\18\206695\" />
+    <Folder Include="tiles2\18\206696\" />
+    <Folder Include="tiles2\18\206697\" />
+    <Folder Include="tiles2\18\206698\" />
+    <Folder Include="tiles2\18\206699\" />
+    <Folder Include="tiles2\18\206700\" />
+    <Folder Include="tiles2\18\206701\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="tiles2\16\51665\32538.jpg" />
+    <Resource Include="tiles2\16\51665\32539.jpg" />
+    <Resource Include="tiles2\16\51666\32538.jpg" />
+    <Resource Include="tiles2\16\51666\32539.jpg" />
+    <Resource Include="tiles2\16\51666\32540.jpg" />
+    <Resource Include="tiles2\16\51667\32538.jpg" />
+    <Resource Include="tiles2\16\51667\32539.jpg" />
+    <Resource Include="tiles2\16\51667\32540.jpg" />
+    <Resource Include="tiles2\16\51668\32537.jpg" />
+    <Resource Include="tiles2\16\51668\32538.jpg" />
+    <Resource Include="tiles2\16\51668\32539.jpg" />
+    <Resource Include="tiles2\16\51668\32540.jpg" />
+    <Resource Include="tiles2\16\51668\32541.jpg" />
+    <Resource Include="tiles2\16\51669\32539.jpg" />
+    <Resource Include="tiles2\16\51669\32540.jpg" />
+    <Resource Include="tiles2\16\51669\32541.jpg" />
+    <Resource Include="tiles2\16\51669\32542.jpg" />
+    <Resource Include="tiles2\16\51670\32539.jpg" />
+    <Resource Include="tiles2\16\51670\32540.jpg" />
+    <Resource Include="tiles2\16\51670\32541.jpg" />
+    <Resource Include="tiles2\16\51670\32542.jpg" />
+    <Resource Include="tiles2\16\51671\32539.jpg" />
+    <Resource Include="tiles2\16\51671\32540.jpg" />
+    <Resource Include="tiles2\16\51671\32541.jpg" />
+    <Resource Include="tiles2\16\51671\32542.jpg" />
+    <Resource Include="tiles2\16\51672\32539.jpg" />
+    <Resource Include="tiles2\16\51672\32540.jpg" />
+    <Resource Include="tiles2\16\51672\32541.jpg" />
+    <Resource Include="tiles2\16\51672\32542.jpg" />
+    <Resource Include="tiles2\17\103330\65077.jpg" />
+    <Resource Include="tiles2\17\103331\65077.jpg" />
+    <Resource Include="tiles2\17\103331\65078.jpg" />
+    <Resource Include="tiles2\17\103332\65077.jpg" />
+    <Resource Include="tiles2\17\103332\65078.jpg" />
+    <Resource Include="tiles2\17\103332\65079.jpg" />
+    <Resource Include="tiles2\17\103333\65077.jpg" />
+    <Resource Include="tiles2\17\103333\65078.jpg" />
+    <Resource Include="tiles2\17\103333\65079.jpg" />
+    <Resource Include="tiles2\17\103333\65080.jpg" />
+    <Resource Include="tiles2\17\103334\65077.jpg" />
+    <Resource Include="tiles2\17\103334\65078.jpg" />
+    <Resource Include="tiles2\17\103334\65079.jpg" />
+    <Resource Include="tiles2\17\103334\65080.jpg" />
+    <Resource Include="tiles2\17\103335\65077.jpg" />
+    <Resource Include="tiles2\17\103335\65078.jpg" />
+    <Resource Include="tiles2\17\103335\65079.jpg" />
+    <Resource Include="tiles2\17\103335\65080.jpg" />
+    <Resource Include="tiles2\17\103335\65081.jpg" />
+    <Resource Include="tiles2\17\103336\65075.jpg" />
+    <Resource Include="tiles2\17\103336\65076.jpg" />
+    <Resource Include="tiles2\17\103336\65077.jpg" />
+    <Resource Include="tiles2\17\103336\65078.jpg" />
+    <Resource Include="tiles2\17\103336\65079.jpg" />
+    <Resource Include="tiles2\17\103336\65080.jpg" />
+    <Resource Include="tiles2\17\103336\65081.jpg" />
+    <Resource Include="tiles2\17\103336\65082.jpg" />
+    <Resource Include="tiles2\17\103337\65074.jpg" />
+    <Resource Include="tiles2\17\103337\65075.jpg" />
+    <Resource Include="tiles2\17\103337\65076.jpg" />
+    <Resource Include="tiles2\17\103337\65077.jpg" />
+    <Resource Include="tiles2\17\103337\65078.jpg" />
+    <Resource Include="tiles2\17\103337\65079.jpg" />
+    <Resource Include="tiles2\17\103337\65080.jpg" />
+    <Resource Include="tiles2\17\103337\65081.jpg" />
+    <Resource Include="tiles2\17\103337\65082.jpg" />
+    <Resource Include="tiles2\17\103337\65083.jpg" />
+    <Resource Include="tiles2\17\103338\65079.jpg" />
+    <Resource Include="tiles2\17\103338\65080.jpg" />
+    <Resource Include="tiles2\17\103338\65081.jpg" />
+    <Resource Include="tiles2\17\103338\65082.jpg" />
+    <Resource Include="tiles2\17\103338\65083.jpg" />
+    <Resource Include="tiles2\17\103338\65084.jpg" />
+    <Resource Include="tiles2\17\103339\65079.jpg" />
+    <Resource Include="tiles2\17\103339\65080.jpg" />
+    <Resource Include="tiles2\17\103339\65081.jpg" />
+    <Resource Include="tiles2\17\103339\65082.jpg" />
+    <Resource Include="tiles2\17\103339\65083.jpg" />
+    <Resource Include="tiles2\17\103339\65084.jpg" />
+    <Resource Include="tiles2\17\103340\65079.jpg" />
+    <Resource Include="tiles2\17\103340\65080.jpg" />
+    <Resource Include="tiles2\17\103340\65081.jpg" />
+    <Resource Include="tiles2\17\103340\65082.jpg" />
+    <Resource Include="tiles2\17\103340\65083.jpg" />
+    <Resource Include="tiles2\17\103340\65084.jpg" />
+    <Resource Include="tiles2\17\103340\65085.jpg" />
+    <Resource Include="tiles2\17\103341\65079.jpg" />
+    <Resource Include="tiles2\17\103341\65080.jpg" />
+    <Resource Include="tiles2\17\103341\65081.jpg" />
+    <Resource Include="tiles2\17\103341\65082.jpg" />
+    <Resource Include="tiles2\17\103341\65083.jpg" />
+    <Resource Include="tiles2\17\103341\65084.jpg" />
+    <Resource Include="tiles2\17\103341\65085.jpg" />
+    <Resource Include="tiles2\17\103342\65079.jpg" />
+    <Resource Include="tiles2\17\103342\65080.jpg" />
+    <Resource Include="tiles2\17\103342\65081.jpg" />
+    <Resource Include="tiles2\17\103342\65082.jpg" />
+    <Resource Include="tiles2\17\103342\65083.jpg" />
+    <Resource Include="tiles2\17\103342\65084.jpg" />
+    <Resource Include="tiles2\17\103342\65085.jpg" />
+    <Resource Include="tiles2\17\103343\65079.jpg" />
+    <Resource Include="tiles2\17\103343\65080.jpg" />
+    <Resource Include="tiles2\17\103343\65081.jpg" />
+    <Resource Include="tiles2\17\103343\65082.jpg" />
+    <Resource Include="tiles2\17\103343\65083.jpg" />
+    <Resource Include="tiles2\17\103343\65084.jpg" />
+    <Resource Include="tiles2\17\103343\65085.jpg" />
+    <Resource Include="tiles2\17\103344\65079.jpg" />
+    <Resource Include="tiles2\17\103344\65080.jpg" />
+    <Resource Include="tiles2\17\103344\65081.jpg" />
+    <Resource Include="tiles2\17\103344\65082.jpg" />
+    <Resource Include="tiles2\17\103344\65083.jpg" />
+    <Resource Include="tiles2\17\103344\65085.jpg" />
+    <Resource Include="tiles2\17\103345\65079.jpg" />
+    <Resource Include="tiles2\17\103345\65080.jpg" />
+    <Resource Include="tiles2\17\103345\65081.jpg" />
+    <Resource Include="tiles2\17\103345\65085.jpg" />
+    <Resource Include="tiles2\17\103346\65080.jpg" />
+    <Resource Include="tiles2\18\206661\130154.jpg" />
+    <Resource Include="tiles2\18\206661\130155.jpg" />
+    <Resource Include="tiles2\18\206662\130154.jpg" />
+    <Resource Include="tiles2\18\206662\130155.jpg" />
+    <Resource Include="tiles2\18\206662\130156.jpg" />
+    <Resource Include="tiles2\18\206663\130154.jpg" />
+    <Resource Include="tiles2\18\206663\130155.jpg" />
+    <Resource Include="tiles2\18\206663\130156.jpg" />
+    <Resource Include="tiles2\18\206663\130157.jpg" />
+    <Resource Include="tiles2\18\206664\130154.jpg" />
+    <Resource Include="tiles2\18\206664\130155.jpg" />
+    <Resource Include="tiles2\18\206664\130156.jpg" />
+    <Resource Include="tiles2\18\206664\130157.jpg" />
+    <Resource Include="tiles2\18\206664\130158.jpg" />
+    <Resource Include="tiles2\18\206665\130154.jpg" />
+    <Resource Include="tiles2\18\206665\130155.jpg" />
+    <Resource Include="tiles2\18\206665\130156.jpg" />
+    <Resource Include="tiles2\18\206665\130157.jpg" />
+    <Resource Include="tiles2\18\206665\130158.jpg" />
+    <Resource Include="tiles2\18\206665\130159.jpg" />
+    <Resource Include="tiles2\18\206666\130154.jpg" />
+    <Resource Include="tiles2\18\206666\130155.jpg" />
+    <Resource Include="tiles2\18\206666\130156.jpg" />
+    <Resource Include="tiles2\18\206666\130157.jpg" />
+    <Resource Include="tiles2\18\206666\130158.jpg" />
+    <Resource Include="tiles2\18\206666\130159.jpg" />
+    <Resource Include="tiles2\18\206667\130154.jpg" />
+    <Resource Include="tiles2\18\206667\130155.jpg" />
+    <Resource Include="tiles2\18\206667\130156.jpg" />
+    <Resource Include="tiles2\18\206667\130157.jpg" />
+    <Resource Include="tiles2\18\206667\130158.jpg" />
+    <Resource Include="tiles2\18\206667\130159.jpg" />
+    <Resource Include="tiles2\18\206667\130160.jpg" />
+    <Resource Include="tiles2\18\206668\130154.jpg" />
+    <Resource Include="tiles2\18\206668\130155.jpg" />
+    <Resource Include="tiles2\18\206668\130156.jpg" />
+    <Resource Include="tiles2\18\206668\130157.jpg" />
+    <Resource Include="tiles2\18\206668\130158.jpg" />
+    <Resource Include="tiles2\18\206668\130159.jpg" />
+    <Resource Include="tiles2\18\206668\130160.jpg" />
+    <Resource Include="tiles2\18\206668\130161.jpg" />
+    <Resource Include="tiles2\18\206669\130154.jpg" />
+    <Resource Include="tiles2\18\206669\130155.jpg" />
+    <Resource Include="tiles2\18\206669\130156.jpg" />
+    <Resource Include="tiles2\18\206669\130157.jpg" />
+    <Resource Include="tiles2\18\206669\130158.jpg" />
+    <Resource Include="tiles2\18\206669\130159.jpg" />
+    <Resource Include="tiles2\18\206669\130160.jpg" />
+    <Resource Include="tiles2\18\206669\130161.jpg" />
+    <Resource Include="tiles2\18\206670\130154.jpg" />
+    <Resource Include="tiles2\18\206670\130155.jpg" />
+    <Resource Include="tiles2\18\206670\130156.jpg" />
+    <Resource Include="tiles2\18\206670\130157.jpg" />
+    <Resource Include="tiles2\18\206670\130158.jpg" />
+    <Resource Include="tiles2\18\206670\130159.jpg" />
+    <Resource Include="tiles2\18\206670\130160.jpg" />
+    <Resource Include="tiles2\18\206670\130161.jpg" />
+    <Resource Include="tiles2\18\206670\130162.jpg" />
+    <Resource Include="tiles2\18\206671\130154.jpg" />
+    <Resource Include="tiles2\18\206671\130155.jpg" />
+    <Resource Include="tiles2\18\206671\130156.jpg" />
+    <Resource Include="tiles2\18\206671\130157.jpg" />
+    <Resource Include="tiles2\18\206671\130158.jpg" />
+    <Resource Include="tiles2\18\206671\130159.jpg" />
+    <Resource Include="tiles2\18\206671\130160.jpg" />
+    <Resource Include="tiles2\18\206671\130161.jpg" />
+    <Resource Include="tiles2\18\206671\130162.jpg" />
+    <Resource Include="tiles2\18\206672\130155.jpg" />
+    <Resource Include="tiles2\18\206672\130156.jpg" />
+    <Resource Include="tiles2\18\206672\130157.jpg" />
+    <Resource Include="tiles2\18\206672\130158.jpg" />
+    <Resource Include="tiles2\18\206672\130159.jpg" />
+    <Resource Include="tiles2\18\206672\130160.jpg" />
+    <Resource Include="tiles2\18\206672\130161.jpg" />
+    <Resource Include="tiles2\18\206672\130162.jpg" />
+    <Resource Include="tiles2\18\206672\130163.jpg" />
+    <Resource Include="tiles2\18\206673\130150.jpg" />
+    <Resource Include="tiles2\18\206673\130152.jpg" />
+    <Resource Include="tiles2\18\206673\130153.jpg" />
+    <Resource Include="tiles2\18\206673\130154.jpg" />
+    <Resource Include="tiles2\18\206673\130155.jpg" />
+    <Resource Include="tiles2\18\206673\130156.jpg" />
+    <Resource Include="tiles2\18\206673\130157.jpg" />
+    <Resource Include="tiles2\18\206673\130158.jpg" />
+    <Resource Include="tiles2\18\206673\130159.jpg" />
+    <Resource Include="tiles2\18\206673\130160.jpg" />
+    <Resource Include="tiles2\18\206673\130161.jpg" />
+    <Resource Include="tiles2\18\206673\130162.jpg" />
+    <Resource Include="tiles2\18\206673\130163.jpg" />
+    <Resource Include="tiles2\18\206673\130164.jpg" />
+    <Resource Include="tiles2\18\206674\130149.jpg" />
+    <Resource Include="tiles2\18\206674\130150.jpg" />
+    <Resource Include="tiles2\18\206674\130151.jpg" />
+    <Resource Include="tiles2\18\206674\130152.jpg" />
+    <Resource Include="tiles2\18\206674\130153.jpg" />
+    <Resource Include="tiles2\18\206674\130154.jpg" />
+    <Resource Include="tiles2\18\206674\130155.jpg" />
+    <Resource Include="tiles2\18\206674\130156.jpg" />
+    <Resource Include="tiles2\18\206674\130157.jpg" />
+    <Resource Include="tiles2\18\206674\130158.jpg" />
+    <Resource Include="tiles2\18\206674\130159.jpg" />
+    <Resource Include="tiles2\18\206674\130160.jpg" />
+    <Resource Include="tiles2\18\206674\130161.jpg" />
+    <Resource Include="tiles2\18\206674\130162.jpg" />
+    <Resource Include="tiles2\18\206674\130163.jpg" />
+    <Resource Include="tiles2\18\206674\130164.jpg" />
+    <Resource Include="tiles2\18\206674\130165.jpg" />
+    <Resource Include="tiles2\18\206674\130166.jpg" />
+    <Resource Include="tiles2\18\206675\130157.jpg" />
+    <Resource Include="tiles2\18\206675\130158.jpg" />
+    <Resource Include="tiles2\18\206675\130159.jpg" />
+    <Resource Include="tiles2\18\206675\130160.jpg" />
+    <Resource Include="tiles2\18\206675\130161.jpg" />
+    <Resource Include="tiles2\18\206675\130162.jpg" />
+    <Resource Include="tiles2\18\206675\130163.jpg" />
+    <Resource Include="tiles2\18\206675\130164.jpg" />
+    <Resource Include="tiles2\18\206675\130165.jpg" />
+    <Resource Include="tiles2\18\206675\130166.jpg" />
+    <Resource Include="tiles2\18\206676\130158.jpg" />
+    <Resource Include="tiles2\18\206676\130159.jpg" />
+    <Resource Include="tiles2\18\206676\130160.jpg" />
+    <Resource Include="tiles2\18\206676\130161.jpg" />
+    <Resource Include="tiles2\18\206676\130162.jpg" />
+    <Resource Include="tiles2\18\206676\130163.jpg" />
+    <Resource Include="tiles2\18\206676\130164.jpg" />
+    <Resource Include="tiles2\18\206676\130165.jpg" />
+    <Resource Include="tiles2\18\206676\130166.jpg" />
+    <Resource Include="tiles2\18\206676\130167.jpg" />
+    <Resource Include="tiles2\18\206677\130158.jpg" />
+    <Resource Include="tiles2\18\206677\130159.jpg" />
+    <Resource Include="tiles2\18\206677\130160.jpg" />
+    <Resource Include="tiles2\18\206677\130161.jpg" />
+    <Resource Include="tiles2\18\206677\130162.jpg" />
+    <Resource Include="tiles2\18\206677\130163.jpg" />
+    <Resource Include="tiles2\18\206677\130164.jpg" />
+    <Resource Include="tiles2\18\206677\130165.jpg" />
+    <Resource Include="tiles2\18\206677\130166.jpg" />
+    <Resource Include="tiles2\18\206677\130167.jpg" />
+    <Resource Include="tiles2\18\206677\130168.jpg" />
+    <Resource Include="tiles2\18\206678\130158.jpg" />
+    <Resource Include="tiles2\18\206678\130159.jpg" />
+    <Resource Include="tiles2\18\206678\130160.jpg" />
+    <Resource Include="tiles2\18\206678\130161.jpg" />
+    <Resource Include="tiles2\18\206678\130162.jpg" />
+    <Resource Include="tiles2\18\206678\130163.jpg" />
+    <Resource Include="tiles2\18\206678\130164.jpg" />
+    <Resource Include="tiles2\18\206678\130165.jpg" />
+    <Resource Include="tiles2\18\206678\130166.jpg" />
+    <Resource Include="tiles2\18\206678\130167.jpg" />
+    <Resource Include="tiles2\18\206678\130168.jpg" />
+    <Resource Include="tiles2\18\206678\130169.jpg" />
+    <Resource Include="tiles2\18\206679\130158.jpg" />
+    <Resource Include="tiles2\18\206679\130159.jpg" />
+    <Resource Include="tiles2\18\206679\130160.jpg" />
+    <Resource Include="tiles2\18\206679\130161.jpg" />
+    <Resource Include="tiles2\18\206679\130162.jpg" />
+    <Resource Include="tiles2\18\206679\130163.jpg" />
+    <Resource Include="tiles2\18\206679\130164.jpg" />
+    <Resource Include="tiles2\18\206679\130165.jpg" />
+    <Resource Include="tiles2\18\206679\130166.jpg" />
+    <Resource Include="tiles2\18\206679\130167.jpg" />
+    <Resource Include="tiles2\18\206679\130168.jpg" />
+    <Resource Include="tiles2\18\206679\130169.jpg" />
+    <Resource Include="tiles2\18\206679\130170.jpg" />
+    <Resource Include="tiles2\18\206680\130158.jpg" />
+    <Resource Include="tiles2\18\206680\130159.jpg" />
+    <Resource Include="tiles2\18\206680\130160.jpg" />
+    <Resource Include="tiles2\18\206680\130161.jpg" />
+    <Resource Include="tiles2\18\206680\130162.jpg" />
+    <Resource Include="tiles2\18\206680\130163.jpg" />
+    <Resource Include="tiles2\18\206680\130164.jpg" />
+    <Resource Include="tiles2\18\206680\130165.jpg" />
+    <Resource Include="tiles2\18\206680\130166.jpg" />
+    <Resource Include="tiles2\18\206680\130167.jpg" />
+    <Resource Include="tiles2\18\206680\130168.jpg" />
+    <Resource Include="tiles2\18\206680\130169.jpg" />
+    <Resource Include="tiles2\18\206680\130170.jpg" />
+    <Resource Include="tiles2\18\206681\130158.jpg" />
+    <Resource Include="tiles2\18\206681\130159.jpg" />
+    <Resource Include="tiles2\18\206681\130160.jpg" />
+    <Resource Include="tiles2\18\206681\130161.jpg" />
+    <Resource Include="tiles2\18\206681\130162.jpg" />
+    <Resource Include="tiles2\18\206681\130163.jpg" />
+    <Resource Include="tiles2\18\206681\130164.jpg" />
+    <Resource Include="tiles2\18\206681\130165.jpg" />
+    <Resource Include="tiles2\18\206681\130166.jpg" />
+    <Resource Include="tiles2\18\206681\130167.jpg" />
+    <Resource Include="tiles2\18\206681\130168.jpg" />
+    <Resource Include="tiles2\18\206681\130169.jpg" />
+    <Resource Include="tiles2\18\206681\130170.jpg" />
+    <Resource Include="tiles2\18\206682\130159.jpg" />
+    <Resource Include="tiles2\18\206682\130160.jpg" />
+    <Resource Include="tiles2\18\206682\130161.jpg" />
+    <Resource Include="tiles2\18\206682\130162.jpg" />
+    <Resource Include="tiles2\18\206682\130163.jpg" />
+    <Resource Include="tiles2\18\206682\130164.jpg" />
+    <Resource Include="tiles2\18\206682\130165.jpg" />
+    <Resource Include="tiles2\18\206682\130166.jpg" />
+    <Resource Include="tiles2\18\206682\130167.jpg" />
+    <Resource Include="tiles2\18\206682\130168.jpg" />
+    <Resource Include="tiles2\18\206682\130169.jpg" />
+    <Resource Include="tiles2\18\206683\130159.jpg" />
+    <Resource Include="tiles2\18\206683\130160.jpg" />
+    <Resource Include="tiles2\18\206683\130161.jpg" />
+    <Resource Include="tiles2\18\206683\130162.jpg" />
+    <Resource Include="tiles2\18\206683\130163.jpg" />
+    <Resource Include="tiles2\18\206683\130164.jpg" />
+    <Resource Include="tiles2\18\206683\130165.jpg" />
+    <Resource Include="tiles2\18\206683\130166.jpg" />
+    <Resource Include="tiles2\18\206683\130167.jpg" />
+    <Resource Include="tiles2\18\206683\130168.jpg" />
+    <Resource Include="tiles2\18\206683\130169.jpg" />
+    <Resource Include="tiles2\18\206683\130170.jpg" />
+    <Resource Include="tiles2\18\206683\130171.jpg" />
+    <Resource Include="tiles2\18\206684\130158.jpg" />
+    <Resource Include="tiles2\18\206684\130159.jpg" />
+    <Resource Include="tiles2\18\206684\130160.jpg" />
+    <Resource Include="tiles2\18\206684\130161.jpg" />
+    <Resource Include="tiles2\18\206684\130162.jpg" />
+    <Resource Include="tiles2\18\206684\130163.jpg" />
+    <Resource Include="tiles2\18\206684\130164.jpg" />
+    <Resource Include="tiles2\18\206684\130165.jpg" />
+    <Resource Include="tiles2\18\206684\130166.jpg" />
+    <Resource Include="tiles2\18\206684\130167.jpg" />
+    <Resource Include="tiles2\18\206684\130168.jpg" />
+    <Resource Include="tiles2\18\206684\130169.jpg" />
+    <Resource Include="tiles2\18\206684\130171.jpg" />
+    <Resource Include="tiles2\18\206685\130158.jpg" />
+    <Resource Include="tiles2\18\206685\130159.jpg" />
+    <Resource Include="tiles2\18\206685\130160.jpg" />
+    <Resource Include="tiles2\18\206685\130161.jpg" />
+    <Resource Include="tiles2\18\206685\130162.jpg" />
+    <Resource Include="tiles2\18\206685\130163.jpg" />
+    <Resource Include="tiles2\18\206685\130164.jpg" />
+    <Resource Include="tiles2\18\206685\130165.jpg" />
+    <Resource Include="tiles2\18\206685\130166.jpg" />
+    <Resource Include="tiles2\18\206685\130167.jpg" />
+    <Resource Include="tiles2\18\206685\130168.jpg" />
+    <Resource Include="tiles2\18\206685\130169.jpg" />
+    <Resource Include="tiles2\18\206685\130171.jpg" />
+    <Resource Include="tiles2\18\206686\130158.jpg" />
+    <Resource Include="tiles2\18\206686\130159.jpg" />
+    <Resource Include="tiles2\18\206686\130160.jpg" />
+    <Resource Include="tiles2\18\206686\130161.jpg" />
+    <Resource Include="tiles2\18\206686\130162.jpg" />
+    <Resource Include="tiles2\18\206686\130163.jpg" />
+    <Resource Include="tiles2\18\206686\130164.jpg" />
+    <Resource Include="tiles2\18\206686\130165.jpg" />
+    <Resource Include="tiles2\18\206686\130166.jpg" />
+    <Resource Include="tiles2\18\206686\130167.jpg" />
+    <Resource Include="tiles2\18\206686\130168.jpg" />
+    <Resource Include="tiles2\18\206686\130171.jpg" />
+    <Resource Include="tiles2\18\206687\130159.jpg" />
+    <Resource Include="tiles2\18\206687\130160.jpg" />
+    <Resource Include="tiles2\18\206687\130161.jpg" />
+    <Resource Include="tiles2\18\206687\130162.jpg" />
+    <Resource Include="tiles2\18\206687\130163.jpg" />
+    <Resource Include="tiles2\18\206687\130164.jpg" />
+    <Resource Include="tiles2\18\206687\130165.jpg" />
+    <Resource Include="tiles2\18\206687\130166.jpg" />
+    <Resource Include="tiles2\18\206687\130167.jpg" />
+    <Resource Include="tiles2\18\206687\130171.jpg" />
+    <Resource Include="tiles2\18\206688\130159.jpg" />
+    <Resource Include="tiles2\18\206688\130160.jpg" />
+    <Resource Include="tiles2\18\206688\130161.jpg" />
+    <Resource Include="tiles2\18\206688\130162.jpg" />
+    <Resource Include="tiles2\18\206688\130163.jpg" />
+    <Resource Include="tiles2\18\206688\130164.jpg" />
+    <Resource Include="tiles2\18\206688\130165.jpg" />
+    <Resource Include="tiles2\18\206688\130166.jpg" />
+    <Resource Include="tiles2\18\206688\130171.jpg" />
+    <Resource Include="tiles2\18\206689\130159.jpg" />
+    <Resource Include="tiles2\18\206689\130160.jpg" />
+    <Resource Include="tiles2\18\206689\130161.jpg" />
+    <Resource Include="tiles2\18\206689\130162.jpg" />
+    <Resource Include="tiles2\18\206689\130163.jpg" />
+    <Resource Include="tiles2\18\206689\130164.jpg" />
+    <Resource Include="tiles2\18\206689\130165.jpg" />
+    <Resource Include="tiles2\18\206689\130171.jpg" />
+    <Resource Include="tiles2\18\206690\130159.jpg" />
+    <Resource Include="tiles2\18\206690\130160.jpg" />
+    <Resource Include="tiles2\18\206690\130161.jpg" />
+    <Resource Include="tiles2\18\206690\130162.jpg" />
+    <Resource Include="tiles2\18\206690\130163.jpg" />
+    <Resource Include="tiles2\18\206690\130171.jpg" />
+    <Resource Include="tiles2\18\206691\130159.jpg" />
+    <Resource Include="tiles2\18\206691\130160.jpg" />
+    <Resource Include="tiles2\18\206691\130161.jpg" />
+    <Resource Include="tiles2\18\206691\130162.jpg" />
+    <Resource Include="tiles2\18\206691\130171.jpg" />
+    <Resource Include="tiles2\18\206692\130160.jpg" />
+    <Resource Include="tiles2\water.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\16\51665\32538.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\16\51665\32539.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\16\51666\32538.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\16\51666\32539.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\16\51666\32540.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\16\51667\32538.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\16\51667\32539.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\16\51667\32540.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\16\51668\32537.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\16\51668\32538.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\16\51668\32539.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\16\51668\32540.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\16\51668\32541.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\16\51669\32539.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\16\51669\32540.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\16\51669\32541.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\16\51669\32542.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\16\51670\32539.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\16\51670\32540.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\16\51670\32541.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\16\51670\32542.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\16\51671\32539.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\16\51671\32540.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\16\51671\32541.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\16\51671\32542.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\16\51672\32539.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\16\51672\32540.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\16\51672\32541.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\16\51672\32542.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\17\103330\65077.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\17\103331\65077.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\17\103331\65078.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\17\103332\65077.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\17\103332\65078.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\17\103332\65079.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\17\103333\65077.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\17\103333\65078.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\17\103333\65079.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\17\103333\65080.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\17\103334\65077.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\17\103334\65078.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\17\103334\65079.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\17\103334\65080.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\17\103335\65077.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\17\103335\65078.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\17\103335\65079.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\17\103335\65080.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\17\103335\65081.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\17\103336\65075.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\17\103336\65076.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\17\103336\65077.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\17\103336\65078.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\17\103336\65079.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\17\103336\65080.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\17\103336\65081.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\17\103336\65082.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\17\103337\65074.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\17\103337\65075.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\17\103337\65076.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\17\103337\65077.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\17\103337\65078.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\17\103337\65079.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\17\103337\65080.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\17\103337\65081.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\17\103337\65082.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\17\103337\65083.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\17\103338\65079.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\17\103338\65080.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\17\103338\65081.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\17\103338\65082.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\17\103338\65083.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\17\103338\65084.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\17\103339\65079.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\17\103339\65080.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\17\103339\65081.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\17\103339\65082.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\17\103339\65083.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\17\103339\65084.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\17\103340\65079.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\17\103340\65080.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\17\103340\65081.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\17\103340\65082.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\17\103340\65083.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\17\103340\65084.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\17\103340\65085.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\17\103341\65079.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\17\103341\65080.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\17\103341\65081.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\17\103341\65082.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\17\103341\65083.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\17\103341\65084.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\17\103341\65085.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\17\103342\65079.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\17\103342\65080.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\17\103342\65081.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\17\103342\65082.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\17\103342\65083.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\17\103342\65084.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\17\103342\65085.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\17\103343\65079.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\17\103343\65080.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\17\103343\65081.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\17\103343\65082.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\17\103343\65083.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\17\103343\65084.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\17\103343\65085.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\17\103344\65079.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\17\103344\65080.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\17\103344\65081.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\17\103344\65082.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\17\103344\65083.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\17\103344\65085.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\17\103345\65079.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\17\103345\65080.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\17\103345\65081.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\17\103345\65085.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\17\103346\65080.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206661\130154.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206661\130155.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206662\130154.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206662\130155.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206662\130156.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206663\130154.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206663\130155.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206663\130156.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206663\130157.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206664\130154.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206664\130155.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206664\130156.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206664\130157.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206664\130158.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206665\130154.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206665\130155.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206665\130156.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206665\130157.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206665\130158.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206665\130159.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206666\130154.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206666\130155.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206666\130156.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206666\130157.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206666\130158.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206666\130159.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206667\130154.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206667\130155.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206667\130156.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206667\130157.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206667\130158.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206667\130159.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206667\130160.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206668\130154.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206668\130155.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206668\130156.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206668\130157.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206668\130158.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206668\130159.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206668\130160.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206668\130161.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206669\130154.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206669\130155.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206669\130156.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206669\130157.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206669\130158.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206669\130159.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206669\130160.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206669\130161.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206670\130154.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206670\130155.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206670\130156.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206670\130157.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206670\130158.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206670\130159.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206670\130160.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206670\130161.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206670\130162.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206671\130154.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206671\130155.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206671\130156.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206671\130157.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206671\130158.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206671\130159.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206671\130160.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206671\130161.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206671\130162.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206672\130155.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206672\130156.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206672\130157.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206672\130158.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206672\130159.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206672\130160.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206672\130161.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206672\130162.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206672\130163.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206673\130150.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206673\130152.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206673\130153.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206673\130154.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206673\130155.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206673\130156.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206673\130157.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206673\130158.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206673\130159.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206673\130160.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206673\130161.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206673\130162.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206673\130163.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206673\130164.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206674\130149.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206674\130150.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206674\130151.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206674\130152.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206674\130153.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206674\130154.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206674\130155.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206674\130156.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206674\130157.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206674\130158.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206674\130159.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206674\130160.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206674\130161.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206674\130162.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206674\130163.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206674\130164.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206674\130165.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206674\130166.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206675\130157.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206675\130158.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206675\130159.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206675\130160.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206675\130161.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206675\130162.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206675\130163.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206675\130164.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206675\130165.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206675\130166.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206676\130158.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206676\130159.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206676\130160.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206676\130161.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206676\130162.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206676\130163.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206676\130164.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206676\130165.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206676\130166.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206676\130167.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206677\130158.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206677\130159.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206677\130160.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206677\130161.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206677\130162.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206677\130163.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206677\130164.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206677\130165.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206677\130166.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206677\130167.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206677\130168.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206678\130158.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206678\130159.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206678\130160.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206678\130161.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206678\130162.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206678\130163.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206678\130164.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206678\130165.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206678\130166.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206678\130167.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206678\130168.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206678\130169.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206679\130158.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206679\130159.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206679\130160.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206679\130161.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206679\130162.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206679\130163.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206679\130164.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206679\130165.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206679\130166.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206679\130167.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206679\130168.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206679\130169.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206679\130170.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206680\130158.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206680\130159.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206680\130160.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206680\130161.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206680\130162.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206680\130163.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206680\130164.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206680\130165.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206680\130166.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206680\130167.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206680\130168.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206680\130169.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206680\130170.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206681\130158.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206681\130159.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206681\130160.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206681\130161.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206681\130162.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206681\130163.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206681\130164.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206681\130165.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206681\130166.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206681\130167.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206681\130168.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206681\130169.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206681\130170.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206682\130159.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206682\130160.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206682\130161.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206682\130162.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206682\130163.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206682\130164.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206682\130165.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206682\130166.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206682\130167.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206682\130168.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206682\130169.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206683\130159.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206683\130160.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206683\130161.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206683\130162.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206683\130163.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206683\130164.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206683\130165.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206683\130166.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206683\130167.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206683\130168.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206683\130169.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206683\130170.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206683\130171.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206684\130158.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206684\130159.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206684\130160.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206684\130161.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206684\130162.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206684\130163.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206684\130164.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206684\130165.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206684\130166.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206684\130167.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206684\130168.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206684\130169.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206684\130171.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206685\130158.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206685\130159.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206685\130160.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206685\130161.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206685\130162.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206685\130163.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206685\130164.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206685\130165.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206685\130166.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206685\130167.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206685\130168.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206685\130169.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206685\130171.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206686\130158.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206686\130159.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206686\130160.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206686\130161.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206686\130162.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206686\130163.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206686\130164.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206686\130165.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206686\130166.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206686\130167.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206686\130168.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206686\130171.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206687\130159.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206687\130160.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206687\130161.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206687\130162.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206687\130163.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206687\130164.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206687\130165.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206687\130166.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206687\130167.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206687\130171.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206688\130159.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206688\130160.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206688\130161.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206688\130162.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206688\130163.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206688\130164.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206688\130165.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206688\130166.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206688\130171.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206689\130159.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206689\130160.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206689\130161.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206689\130162.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206689\130163.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206689\130164.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206689\130165.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206689\130171.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206690\130159.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206690\130160.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206690\130161.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206690\130162.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206690\130163.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206690\130171.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206691\130159.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206691\130160.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206691\130161.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206691\130162.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206691\130171.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\18\206692\130160.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bin\Debug\tiles2\water.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Designcontest-Ecommerce-Business-Maps.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Martz90-Circle-Maps.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,3 @@
+[{"edgeId":1,"fromNode":917,"toNode":918,"type":"CABLEWAY","biDirectional":true,"time":12.224076112266062,"mapOverlays":[[1.257212,103.811241],[1.25382626222,103.81478132143019]],"lineColor":"NAVYBLUE"},
+
+{"edgeId":2,"fromNode":918,"toNode":919,"type":"CABLEWAY","biDirectional":true,"time":4.6594689909564178,"mapOverlays":[[1.25382626222,103.81478132143019],[1.254973,103.816255]],"lineColor":"NAVYBLUE"}]
